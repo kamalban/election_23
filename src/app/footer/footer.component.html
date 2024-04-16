@@ -1,0 +1,37 @@
+<div class="footer-arrange">
+<div class="navigation border">
+    <ul>
+   
+        <li><img src="{{image}}img/Prixe.svg">
+            <p class="footer_font" [routerLink]="['prize']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+                true}" i18n>Prize</p>
+       </li>
+  
+        <li (click)="Tips()"><img src="{{image}}img/Tips.svg" class="tips">
+            <p class="footer_font tip_font" [routerLink]="['tips']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+                true}" i18n>Tips</p>
+        </li>
+
+        <div class="home_arrange" (click)="home()">
+            <div class="blue">
+            <img src="{{image}}img/Home_white.svg" >
+        </div>
+            
+    </div>
+
+    
+        
+    <li  (click)="Howtoplay()"><img src="{{image}}img/game.svg">
+        <p class="footer_font d-block" [routerLink]="['howtoplay']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+            true}" i18n>How To Play</p>
+    </li>
+    
+    
+    <li (click)="showRank()"><img src="{{image}}img/Rank.svg" >
+        <p class="footer_font d-block" [routerLink]="['rank']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+            true}"i18n>Winner</p>
+    </li>
+            
+    </ul>
+    </div>
+</div>

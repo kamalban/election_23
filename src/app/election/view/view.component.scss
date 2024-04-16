@@ -1,0 +1,218 @@
+
+// Table Code
+
+    .box {
+      width: 96%;
+      margin: auto;
+      background-color: rgb(255, 255, 255);
+      padding: 4px 10px;
+      border-radius: 20px;
+      position: relative;
+
+
+    }
+
+    .predicted {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 13px;
+      text-transform: uppercase;
+      display: block;
+      color: #1C1C1C;
+      text-align: center;
+      margin: 10px 0px 0px;
+      font-size:12px;
+    }
+
+
+    .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  font-size: 0.65em;
+ }
+
+    .table thead th {
+      vertical-align: bottom;
+      border-bottom: 0px solid #dee2e6;
+    }
+
+
+    .table th {
+      padding: 0.5rem;
+      vertical-align: top;
+      border-top: 0px solid #dee2e6;
+    }
+
+
+    .table td,
+    .table tr {
+      padding: 0.5rem;
+      vertical-align: top;
+      border-top: 0px solid #dee2e6;
+
+    }
+
+
+
+
+    .verify {
+
+      width: 299px;
+      height: 44.81px;
+      background: #FDCD55;
+      box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+      border-radius: 30px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+      text-transform: uppercase;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      position: relative;
+ 
+
+    }
+
+    .red {
+      color: red
+    }
+
+    .bigedit {
+      position: absolute;
+      right: 0px;
+      top: 5px;
+
+    }
+
+    #chart {
+      width: 65% !important;
+      display: inline-block;
+    }
+
+    .Partname {
+      width: 30% !important;
+      display: inline-block;
+      padding: 10px;
+      list-style: none;
+       position: relative;
+      top:-45px;
+      left: 20px;
+      font-size: 12px;
+    }
+
+    .circle {
+      width: 10px;
+      height: 10px;
+      border-radius:50%;
+      margin-right:10px;
+      display:inline-block;
+  }
+    .circle span{
+      font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+text-transform: uppercase;
+color: #1D1929;
+    }
+
+
+  .bjp{
+    background-color:#F65354;
+
+  } 
+
+  .sp{
+    background-color: #F2AE2E;
+  } 
+
+
+
+  .inc{
+    background-color: #27AE60;
+    
+  } 
+
+
+  .aap{
+    background-color: #7F3DFF;
+  } 
+
+
+  .oth{
+    background-color: #25386F;
+    
+  } 
+
+
+
+    .radius {
+      border-radius: 10px !important;
+    }
+
+
+    .mostbolder{
+      font-weight:1000;
+    }
+
+    .lightbolder
+      {
+        font-weight:800;
+      }
+      @media(max-width:540px){
+        .box {
+          width: 96%;
+          margin: auto;
+          background-color: rgb(255, 255, 255);
+          padding: 4px 10px;
+          border-radius: 20px;
+          position: relative;
+    
+    
+        }
+
+      }
+
+  .blink-soft {
+        animation: blinker 1.5s linear infinite;
+        font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+text-align: center;
+color: #FFFFFF;
+
+      }
+      @keyframes blinker {
+        0% {
+          opacity: 1;
+        }
+
+        30% {
+          opacity: .5;
+          color:#dee2e6;
+        }
+
+        50% {
+          opacity: 0;
+        }
+
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      .hand{
+        position: absolute;
+        right:-25px;
+        bottom:-29px;
+      }

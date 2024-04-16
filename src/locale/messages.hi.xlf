@@ -1,0 +1,1908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/alert/alert.ts</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source>
+          Slide
+          <x id="INTERPOLATION" equiv-text="OnHover$ = new" />
+          of
+          <x id="INTERPOLATION_1" equiv-text=";
+  private _pa" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">114,118</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">132,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">147,152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">44,49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">59,63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">24,27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">35,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">47,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">60,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">182,183</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">186,190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">194,195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">201,204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">208,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">215,216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">226,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">232,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="; }
+
+  /**
+   *" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts</context>
+          <context context-type="linenumber">32,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">58,59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">63,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">76,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">82,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">92,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">106,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="NgbTime;
+
+  pr" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">115,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>
+          <x id="INTERPOLATION" equiv-text="t() meridian: b" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">123,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/toast/toast.ts</context>
+          <context context-type="linenumber">78,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8337353237186664405" datatype="html">
+        <source>
+          Hey Bazigaar! Thank You! We have saved your prediction. You may return to change your prediction anytime.
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://www.beautifulhomes.com/content/beautifulhomes/en.html?cid=DI_ABP_DM_B&amp;utm_source=ABP&amp;utm_medium=cpv_visit&amp;utm_campaign=ABP_visit_Feb_22&amp;utm_term=ABP&quot; target=&quot;_blank&quot; class=&quot;form_link&quot; &gt;" />
+          Know More
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        </source>
+        <target>नमस्कार  शुक्रिया! आपने अपना अनुमान सुरक्षित कर लिया है. आप कभी भी अपना अनुमान बदल सकते हैं </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">7,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4617693516028634146" datatype="html">
+        <source>BACK</source>
+        <target>पिछला</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">153,154</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2094340278586744830" datatype="html">
+        <source>S.No</source>
+        <target>क्रमांक</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5829539527434674476" datatype="html">
+        <source>
+          Hey Baazigar! Change your prediction anytime you want until
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;orange&quot;&gt;" />
+          6th March, 2022
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        </source>
+        <target>बाजीगर! 6 मार्च, 2022 तक जब चाहें अपना अनुमान बदलें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4682398880824404940" datatype="html">
+        <source>Your Prediction Has Been Saved.</source>
+        <target>आपका अनुमान सेव हो गया है.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5211219337711110924" datatype="html">
+        <source>
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          1.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          What is Election Ke Bazigaar?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          Election ke Bazigaar is a Free game where you predict which major party will win how many seats in Uttar Pradesh, Punjab, Uttarakhand and Goa Elections 2022 and win up to Rs 2.5 Lacs!!! More than 120 prizes on offer. Hurry!
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          2.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Is the game free or paid?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          The entire game is FREE to play.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          3.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          How will I know if I have won the prize?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          If you have won a prize, we will contact you over phone/SMS before 18th March, 2022.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          4.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          When will the game results get declared?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          Check your RANK and D.SCORE on March 11th, 2022 after the Election results are announced. Remember to save/bookmark this game link so you can check on March 11th if you have won a prize. Happy Playing!
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          5.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Can I change my prediction?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          You can change your predictions whenever you want, as many times as you want, until 6th March, 2022
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          6.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Can I win more than one prize?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          Only one prize per Mobile Number is eligible. You may play with different Mobile Numbers but you can win a maximum of one prize.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          7.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;w-80&quot;&gt;" />
+          Do I need to be a resident of the state for which I am predicting? For example, if I am a resident of Karnataka, can I predict for Uttar Pradesh?
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          YES! You can predict for any or all states as long as you are an Indian resident of any state.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          8.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          How do I maximise my chances of winning a prize?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          Firstly, predict for all states instead of just 1 or 2. Secondly, read ABP news. Do some research on which parties are forming what kind of alliances and competing on how many seats. Check past election results.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          9.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          How are the winners decided?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          The closer you are able to tell the results based upon your knowledge about the subject matter and in depth understanding about the Constituencies/States and all such other related information/facts which shall have a material bearing on the outcome, the higher your rank and the more you are likely to win a prize.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          10.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          What is Election Ke Bazigaar?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          For 2 reasons: 1) Because prizes can only be offered to verified users and 2) To save your predictions. Your predictions are mapped with the Mobile Number that you provide. Providing your Mobile Number helps you to change your prediction any number of times.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        </source>
+        <target>
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          1.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          क्या है इलेक्शन के बाजीगर?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          इलेक्शन के बाजीगर एक मुफ्त गेम है, जहां आप अनुमान लगाते हैं कि कौन सी प्रमुख पार्टी उत्तर प्रदेश, पंजाब, उत्तराखंड और गोवा चुनाव 2022 में कितनी सीटें जीतेगी. सटीक अनुमान लगाएं और 2.5 लाख रुपए तक जीतें या पाएं 120 से भी ज्यादा उपहार.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          2.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          गेम फ्री है या पेड?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          आप पूरा गेम फ्री में खेल सकते हैं.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          3.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          मुझे कैसे पता चलेगा कि मैंने उपहार जीता है?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          अगर आपने कोई उपहार जीता है तो हम 18 मार्च 2022 से पहले आपसे फोन/SMS पर संपर्क करेंगे.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          4.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          खेल के परिणाम कब घोषित होंगे?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          चुनाव परिणाम घोषित होने के बाद 11 मार्च 2022 को अपनी रैंक और डी.स्कोर देखें. गेम के लिंक को सेव/बुकमार्क करना याद रखें, ताकि आप 11 मार्च को जांच कर सकें कि आपने कोई उपहार जीता है या नहीं. हैप्पी प्लेइंग!
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          5.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          क्या मैं अपने अनुमान बदल सकता हूं?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          6 मार्च 2022 तक आप जब चाहें, जितनी बार चाहें, अपने अनुमान बदल सकते हैं.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          6.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          क्या मैं एक से ज्यादा उपहार जीत सकता हूं?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          आप एक मोबाइल नंबर का इस्तेमाल करके एक ही उपहार जीत सकते हैं. अगर आप कई मोबाइल नंबरों का इस्तेमाल करके गेम खेलते हैं तब भी आप एक ही उपहार जीत सकेंगे.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          7.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;w-80&quot;&gt;" />
+          क्या मुझे उस राज्य का निवासी होने की जरूरत है, जिसके लिए मैं भविष्यवाणी कर रहा हूं? उदाहरण के लिए, अगर मैं कर्नाटक का निवासी हूं तो क्या मैं उत्तर प्रदेश के लिए अनुमान लगा सकता हूं?
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          हां! जब तक आप किसी भी राज्य के भारतीय निवासी हैं, तब तक आप किसी भी या सभी राज्यों के लिए अनुमान लगा सकते हैं.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          8.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          मैं उपहार जीतने के अवसर के कैसे बढ़ा सकता हूं?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          सबसे पहले केवल एक या दो के बजाय सभी राज्यों के लिए अनुमान लगाएं. दूसरी बात, एबीपी न्यूज़ पर खबरें पढ़ें. कौन सी पार्टियां किस तरह का गठबंधन कर रही हैं और कितनी सीटों पर होड़ मची है, इस पर कुछ रिसर्च करें. साथ ही पिछले चुनाव परिणामों की भी जांच करें.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          9.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          विजेताओं का फैसला कैसे किया जाता है?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          विषय वस्तु के बारे में अपने ज्ञान, निर्वाचन क्षेत्रों और ऐसी अन्य सभी संबंधित जानकारी/तथ्यों के बारे में गहराई से समझ के आधार पर आप जितना करीब से परिणाम बताने में सक्षम होंगे, आपकी रैंक उतनी ही ऊंची होगी और आपके उपहार जीतने की संभावना उतनी ही ज्यादा होगी.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;h6 class=&quot;question&quot;&gt;" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;w-20&quot; &gt;" />
+          10.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          मुझे अपना मोबाइल नंबर लॉगिन/प्रदान करने की जरूरत क्यों है?
+          <x id="CLOSE_HEADING_LEVEL6" ctype="x-h6" equiv-text="&lt;/h6&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;pl&quot;&gt;" />
+          इसकी दो वजह हैं-
+             1)      क्योंकि उपहार केवल सत्यापित यूजर्स को ही दिए जा सकते हैं.
+             2)       अपने अनुमान को सेव करने के लिए. आपकी ओर से प्रदान किए गए मोबाइल नंबर के साथ आपके अनुमान को मैप किया जाता है. अपना मोबाइल नंबर देने से आपको अपने अनुमान को कितनी भी बार बदलने में मदद मिलेगी.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/faq/faq.component.html</context>
+          <context context-type="linenumber">6,80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5906418031423309849" datatype="html">
+        <source>Mobile No</source>
+        <target>मोबाइल, डी.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7082036500839398917" datatype="html">
+        <source>D. Score</source>
+        <target> स्कोर</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="665219418211496660" datatype="html">
+        <source>Rank</source>
+        <target>रैंक</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="950331308559390967" datatype="html">
+        <source>Predict for other states</source>
+        <target>अन्य राज्यों के लिए अनुमान लगाएं</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">11,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4436060322555066335" datatype="html">
+        <source>Welcome Baazigar! For which state would you like to predict the election results?</source>
+        <target>स्वागत है बाजीगर! किस राज्य के चुनावी नतीजों का अनुमान लगाना चाहोगे?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/select-state/select-state.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7090368974279082159" datatype="html">
+        <source>Whoops</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/select-state/select-state.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">201,203</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">129,131</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">144,146</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">138,140</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">153,155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7832154003859497561" datatype="html">
+        <source> Oops, no internet connection! Please check the connection and try again.</source>
+        <target>इंटरनेट मौजूद नहीं है. कनेक्शन को जांचकर दोबारा कोशिश करें.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/select-state/select-state.component.html</context>
+          <context context-type="linenumber">23,24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">205,206</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">133,134</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">142,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8720977247725652816" datatype="html">
+        <source>Ok</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/select-state/select-state.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">209,210</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">121,122</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">137,138</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">152,153</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">146,147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3210410893786699128" datatype="html">
+        <source>Awadh</source>
+        <target>अवध (118 सीट)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4891884320860207287" datatype="html">
+        <source>Purwanchal (130 seats)</source>
+        <target>पूर्वांचल (130 सीट)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">84,85</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3282160861818675509" datatype="html">
+        <source>West U.P.(136 seats)</source>
+        <target>पश्चिमी यूपी (136 सीट)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9017107007520577969" datatype="html">
+        <source>Bundelkhand (19 seats)</source>
+        <target>बुंदेलखंड (19 सीट)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2882971926932042700" datatype="html">
+        <source>Total - 19 Seats</source>
+        <target>कुल  - 19 सीट </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2970029589058109514" datatype="html">
+        <source>
+          Total -
+          <x id="INTERPOLATION" equiv-text="{{totalSeat}}" />
+          Seats
+        </source>
+        <target>
+          कुल  -
+          <x id="INTERPOLATION" equiv-text="{{totalSeat}}" />
+          सीट
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">163,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1550145607631717416" datatype="html">
+        <source>Total - 118 Seats</source>
+        <target>कुल  - 118 सीट </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">21,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1932421619469048416" datatype="html">
+        <source>Total - 130 Seats</source>
+        <target>कुल  - 130 सीट </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3634889493852931766" datatype="html">
+        <source>Total - 136 Seats</source>
+        <target>कुल  - 136 सीट </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">121,122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6249439377700256442" datatype="html">
+        <source>
+          You have already predicted for
+          <x id="INTERPOLATION" equiv-text="{{state}}" />
+          before. Do you want to replace it with what you have predicted now?
+        </source>
+        <target>
+          आपने पहले ही
+          <x id="INTERPOLATION" equiv-text="{{state}}" />
+          का अनुमान लगा लिया है. क्या अब वाले अनुमान से आप उसे बदलना चाहते हैं?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">122,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7209094683502896821" datatype="html">
+        <source>Predict the seats for each party</source>
+        <target>प्रत्येक पार्टी के लिए सीटों की भविष्यवाणी करें </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">52,53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">119,120</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7566528945766800692" datatype="html">
+        <source>
+          To know more about prizes -
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;prize&apos;]&quot; routerLinkActive=&quot;navigation-active&quot; [routerLinkActiveOptions]=&quot;{exact:
+    true}&quot;&gt;" />
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link ml-1&quot;&gt;" />
+          Click Here
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        </source>
+        <target>
+          पुरस्कारों के बारे में अधिक जानने के लिए-
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;prize&apos;]&quot; routerLinkActive=&quot;navigation-active&quot; [routerLinkActiveOptions]=&quot;{exact:
+    true}&quot;&gt;" />
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link ml-1&quot;&gt;" />
+          यहां क्लिक करें
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7301133861612287340" datatype="html">
+        <source> Tell us Which Major Party Will Win How Many Seats In Up, Punjab, MP And Goa Elections And Win Up To Rs 2.5 Lacs!!! More Than 120 Prizes On Offer - Hurry!</source>
+        <target>हमें बताएं कि कौन सी मुख्य पार्टी यूपी, पंजाब,उत्तराखंड और गोवा चुनावों में कितनी सीटें जीतेगी और 2.5 लाख तक के 120 उपहार जीतें, जल्दी करें.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="238758237751817141" datatype="html">
+        <source>
+          SAVE MY PREDICTION
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../../assets/img/hand.svg&quot; class=&quot;hand blink-soft&quot;&gt;" />
+        </source>
+        <target>
+          SAVE MY PREDICTION
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../../assets/img/hand.svg&quot; class=&quot;hand blink-soft&quot;&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">74,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4773209636233027997" datatype="html">
+        <source>Please save your prediction now</source>
+        <target>कृपया अपने अनुमान को अभी सेव करें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7782677679732021733" datatype="html">
+        <source>Your prediction is complete. Please save your prediction now!</source>
+        <target>आपका अनुमान पूरा हो गया है. कृपया अपना अनुमान अभी सेव करें!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">305,306</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8492078175553512905" datatype="html">
+        <source> Check your RANK and D.SCORE on March 11th, 2022 after the Election results are announced. Save this game/URL to check on March 11th if you have won a prize. Happy Playing!</source>
+        <target>चुनाव परिणाम घोषित होने के बाद 11 मार्च 2022 को अपनी रैंक और डी.स्कोर देखें. गेम के लिंक को सेव करना याद रखें, ताकि आप 11 मार्च को पता लगा सके कि आपने कोई पुरस्कार जीता है या नहीं. हैप्पी प्लेइंग!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8203960326231353510" datatype="html">
+        <source>Seats remaining to be selected : </source>
+        <target>जिन सीटों का चुनाव बाकी है : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">76,77</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">109,110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">141,142</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">184,185</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2711481622178184805" datatype="html">
+        <source>PLAY MORE GAMES</source>
+        <target>और गेम्स खेलें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1694955619474818767" datatype="html">
+        <source>NEXT</source>
+        <target>अगला</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4614896654582325648" datatype="html">
+        <source>START</source>
+        <target>स्टार्ट</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7571110135159465275" datatype="html">
+        <source>Mobile Number</source>
+        <target>मोबाइल नंबर</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8547695249805429452" datatype="html">
+        <source>Please enter your 10-digit mobile number. This number will be used to contact you if you win a prize.</source>
+        <target>अपना दस अंकों का मोबाइल नंबर दर्ज करें. अगर आप इनाम जीतते हैं तो इस नंबर के जरिए आपसे संपर्क किया जाएगा. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3885497195825665706" datatype="html">
+        <source>Next</source>
+        <target>अगला</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9211665410945124545" datatype="html">
+        <source>OTP</source>
+        <target>ओटीपी</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6259924584047609844" datatype="html">
+        <source>
+          Please enter the 4-digit code sent to you at
+          <x id="INTERPOLATION" equiv-text="{{number}}" />
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;{{image}}img/Edit.svg&quot;
+        class=&quot;img-fluid ml-2&quot; (click)=&quot;backToMobileNumber()&quot;&gt;" />
+        </source>
+        <target>
+          आपके नंबर पर भेजा गया 4 अंकों का कोड डालें.
+          <x id="INTERPOLATION" equiv-text="{{number}}" />
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;{{image}}img/Edit.svg&quot;
+        class=&quot;img-fluid ml-2&quot; (click)=&quot;backToMobileNumber()&quot;&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7198400285442404806" datatype="html">
+        <source>
+          Did not receive the OTP?
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-danger outline&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+            Resend OTP
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        </source>
+        <target>
+          ओटीपी प्राप्त नहीं हुआ?
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-danger outline&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+             ओटीपी पुनः भेजें
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">42,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2564417944944355158" datatype="html">
+        <source> You have already predicted for state name before. Do you want to replace it with what you have predicted now?</source>
+        <target>आपने पहले ही राज्य के नाम का अनुमान लगा लिया है. क्या अब वाले अनुमान से आप उसे बदलना चाहते हैं? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">62,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2807800733729323332" datatype="html">
+        <source>Yes</source>
+        <target>हां</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">66,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2140551055999179203" datatype="html">
+        <source> No</source>
+        <target>नहीं</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7159327078180185654" datatype="html">
+        <source>Incorrect OTP. Please try again.</source>
+        <target>गलत ओटीपी. दोबारा कोशिश करें </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">82,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8679806927601731663" datatype="html">
+        <source>Try Again</source>
+        <target>पुनः प्रयास करें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">86,87</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3113561114777573514" datatype="html">
+        <source>Uh-oh! Please enter your 10-digit mobile number.</source>
+        <target>अरे! कृपया अपना दस अंकों का मोबाइल नंबर डालें </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">100,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23466490114816775" datatype="html">
+        <source>Hi there!</source>
+        <target>नमस्ते! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">113,115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5321159550614817321" datatype="html">
+        <source>New otp send to you entered mobile number</source>
+        <target>आपके दर्ज मोबाइल नंबर पर नया ओटीपी भेजें </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">117,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7212586361182864433" datatype="html">
+        <source> Contest closed. You cant update your team now.</source>
+        <target>प्रतियोगिता बंद। आप अभी अपनी टीम को अपडेट नहीं कर सकते।</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">148,149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">157,158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6955494096022268447" datatype="html">
+        <source>You have predicted:</source>
+        <target>आपने अनुमान लगाया: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">9,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3448462145758383019" datatype="html">
+        <source>Total</source>
+        <target>कुल </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">29,30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4880914653991208944" datatype="html">
+        <source>SAVE MY PREDICTION</source>
+        <target>मेरी भविष्यवाणी बचाओ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6346540014148159158" datatype="html">
+        <source>You have predicted :</source>
+        <target>आपने अनुमान लगाया : </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">72,73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5900707437577440211" datatype="html">
+        <source>You have already predicted for state name before. Do you want to replace it with what you have predicted now?</source>
+        <target>आपने पहले ही राज्य के नाम का अनुमान लगा लिया है. क्या अब वाले अनुमान से आप उसे बदलना चाहते हैं? </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">122,124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861926948802653243" datatype="html">
+        <source> Yes </source>
+        <target>हां</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">127,128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3603720768157919481" datatype="html">
+        <source> No </source>
+        <target>नहीं</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">130,131</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7956603970671173354" datatype="html">
+        <source>Prize</source>
+        <target>इनाम</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8250487148482838918" datatype="html">
+        <source>How To Play</source>
+        <target>कैसे प्ले करें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="665219418211496660" datatype="html">
+        <source>Rank</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>होम</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6270599808307053851" datatype="html">
+        <source>How to Play</source>
+        <target>कैसे प्ले करें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3303852097031321192" datatype="html">
+        <source>Terms &amp; Conditions</source>
+        <target>नियम व शर्तें </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8439955599488894226" datatype="html">
+        <source>Privacy Policy</source>
+        <target>प्राइवेसी पॉलिसी</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7911416166208830577" datatype="html">
+        <source>Help</source>
+        <target>मदद</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6093776018155521988" datatype="html">
+        <source>What is this game?</source>
+        <target>ये खेल क्या है?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8304941823254596620" datatype="html">
+        <source>Predict how many seats each major party will win in the upcoming Assembly Elections 2022 in UP, Punjab, Uttarakhand and Goa. The closer your predictions are to the actual results (announced on March 10th), the more your chances of winning. It is FREE to play.</source>
+        <target>अपने पॉलिटिकल ज्ञान का इस्तेमाल कर सटीक अंदाजा लगाइए कि यूपी, उत्तराखंड, पंजाब और गोवा में आने वाले विधानसभा चुनावों में कौन सी बड़ी पार्टी कितनी सीटें जीत सकती है. जब 10 मार्च को नतीजे आएंगे तो आपका अंदाजा जितना सटीक होगा आपके जीतने का चांस उतना ही ज्यादा बढ़ जाएगा. इसे आप फ्री में खेल सकते हैं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6105262582785584112" datatype="html">
+        <source>To play, do this:</source>
+        <target>खेलने के लिए ये करें -</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7665179070667489616" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 1 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Click on NEXT to proceed.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 1 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          नेक्स्ट प्रोसीड (Next Proceed) पर क्लिक करें
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5203621727394774274" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 2 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Select which State you want to predict for.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 2 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          अब अपना राज्य चुनें जहां आप अपना अंदाजा लगाना चाहते हैं
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6164607321090959934" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 3 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Drag the slider bar against each party name and predict how many seats that party will win. REMEMBER: ‘Seats Remaining’ must be 0 for your entry to be valid.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 3 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          हर पार्टी के नाम पर स्लाइडर बार को ड्रैग करें और अपना अंदाजा लगाएं कि किसे कितनी सीटें मिल सकती हैं. लेकिन ध्यान रखें कि आखिर में बची हुई सीटों की संख्या शून्य होनी चाहिए. तभी आपकी एंट्री मान्य होगी.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2891728141855133981" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 4 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          If you are predicting for “Uttar Pradesh” you must predict seats for each of the 4 zones. If you have selected any other State, skip this step.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 4 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          अगर आप उत्तर प्रदेश चुनाव के लिए अंदाजा लगा रहे हैं तो आपको चारों जोन में से हर जोन के लिए सीटों का अंदाजा लगाना होगा. अगर आपने कोई और राज्य चुना है तो आप इस स्टेप को छोड़ सकते हैं.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="911659938104186341" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 5 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Click on PREVIEW to preview how you have predicted.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 5 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          रिव्यू के बटन पर क्लिक कर देखें कि आपने कैसे अपना अंदाजा लगाया है.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8652511268670535600" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 6 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          Click on SAVE MY PREDICTION to save your prediction.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 6 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          इसके बाद अपने इस अंदाजे को सेव करने के लिए SAVE MY PREDICTION पर क्लिक करें
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4849066787242195542" datatype="html">
+        <source>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          Step 7 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          If you are playing for the 1st time, you need to verify your mobile number via an OTP.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span &gt;" />
+          स्टेप 7 :
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          अगर आप ये गेम पहली बार खेल रहे हैं तो आपको अपने मोबाइल नंबर को ओटीपी के जरिए वेरीफाई करना होगा.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2946931477142880021" datatype="html">
+        <source>And you are DONE!</source>
+        <target>बस इतना करने के बाद आप इस गेम में शामिल हो गए...
+</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5496199482598836985" datatype="html">
+        <source>NOTE : </source>
+        <target>नोट - </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2326351057903464095" datatype="html">
+        <source>You can change your predictions whenever you want, until the cut-off date.</source>
+        <target> आप अपने अंदाजे को जब भी चाहें बदल भी सकते हैं, हालांकि कटऑफ डेट के बाद आप ऐसा नहीं कर पाएंगे.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7876767332300344491" datatype="html">
+        <source>
+          Check your rank on the Leaderboard on
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;date&quot;&gt;" />
+          “ March 13th, 2022 “
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          . Don’t forget to check on March 13th, 2022 if you have won a prize.
+        </source>
+        <target>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;date&quot;&gt;" />
+          13 मार्च 2022 “
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          को आप लीडरबोर्ड पर अपनी रैंक चेक कर सकते हैं. अगर आपने इनाम जीता है तो 13 मार्च की तारीख को बिल्कुल ना भूलें.
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/howtoplay/howtoplay.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2384088596160351315" datatype="html">
+        <source>Play Election Ke Baazigar Game for FREE and WIN prizes worth Rs 5 lakhs!!! Just predict how many seats the major parties will win in the upcoming UP, MP, Punjab and Goa Assembly Elections 2022. Hurry!</source>
+        <target>खेलें इलेक्शन के बाज़ीगर गेम फ्री में और जीते 5 लाख रुपये के इनाम! बस अंदाज़ा लगाएं कि आने वाले यूपी, उत्तराखंड, पंजाब और गोवा के चुनावों में कौन सी बड़ी पार्टियां कितनी सीट जीतेंगी. देर न करें!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6207081224227272786" datatype="html">
+        <source>
+          I Agree to The
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;#&quot; class=&quot;text-white&quot;&gt;" />
+           
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link&quot;&gt;" />
+          Terms &amp; Conditions
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        </source>
+        <target>नियम व शर्तें मुझे मंजूर हैं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1396650556655579854" datatype="html">
+        <source>You have not completed predicting all the seats. Please ensure you have 0 seats remaining before proceeding</source>
+        <target>आपने सभी सीटों की भविष्यवाणी नहीं की है. आगे बढ़ने से पहले कृपया सुनिश्चित करें कि आपके पास एक भी सीट (0) नहीं बची हो.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">250,251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4297214076035507498" datatype="html">
+        <source>You don&apos;t have any seats left to predict. You may reduce predicted seats of another party to increase seats for this party.</source>
+        <target>आपके पास भविष्यवाणी करने के लिए कोई सीट नहीं बची है. आप इस पार्टी की सीटें बढ़ाने के लिए अन्य दल के लिए अनुमानित सीटों को कम कर सकते हैं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">265,266</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1295614462098694869" datatype="html">
+        <source>Preview</source>
+        <target>प्रीव्यू</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">154,155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">191,192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8266333451340497655" datatype="html">
+        <source>
+          Don&apos;t know how to play?  
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link&quot; (click)=&quot;next()&quot;&gt;" />
+          Click Here
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+        </source>
+        <target>
+          यहां सीखें कैसे खेलना है!
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link&quot; (click)=&quot;next()&quot;&gt;" />
+          यहां क्लिक करें
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2454050363478003966" datatype="html">
+        <source>Login</source>
+        <target>लॉग इन</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3556677036464637323" datatype="html">
+        <source>Faq</source>
+        <target>एफएक्यू</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/header/header.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7503872659823698337" datatype="html">
+        <source>
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../../assets/img/prizebanner.svg&quot; class=&quot;img-100&quot;&gt;" />
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;arrow&quot;&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_4" ctype="x-div_4" equiv-text="&lt;div id=&quot;carouselExampleControls&quot; class=&quot;carousel slide mt-5&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;" />
+          <x id="START_TAG_DIV_3" ctype="x-div_3" equiv-text="&lt;div class=&quot;carousel-inner&quot;&gt;" />
+          <x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;carousel-item active&quot;&gt;" />
+          <x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;First slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          For UTTAR PRADESH
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 prizes):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_2" ctype="x-img_2" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;Second slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          For MP
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 prizes):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_3" ctype="x-img_3" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;Third slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          For GOA
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 prizes):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_4" ctype="x-img_4" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          For PUNJAB
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 prizes):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;" />
+          <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+          Previous
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          <x id="START_LINK_1" equiv-text="&lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;" />
+          <x id="START_TAG_SPAN_3" ctype="x-span_3" equiv-text="&lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+          Next
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;note mt-5&quot;&gt;" />
+          Notes:
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          1. Bumper prize will be awarded to the player whose response comes closest to the final results in all 4 states combined - UP, Uttarakhand, Punjab, Goa.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          2. State-level prizes (UP or MP or Punjab or Goa) will be awarded to players whose responses are the closest to the actual Election Results in the respective state (which will be announced on 10th March, 2022).
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          3. The closer you are able to tell the results based upon your knowledge about the subject matter and in depth understanding about the Constituencies and all such other related information/facts which shall have a material bearing on the outcome, the higher your rank and the more you are likely to win a prize
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        </source>
+        <target>
+        <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../../assets/img/prizebanner.svg&quot; class=&quot;img-100&quot;&gt;" />
+        <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;arrow&quot;&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_TAG_DIV_4" ctype="x-div_4" equiv-text="&lt;div id=&quot;carouselExampleControls&quot; class=&quot;carousel slide mt-5&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;" />
+        <x id="START_TAG_DIV_3" ctype="x-div_3" equiv-text="&lt;div class=&quot;carousel-inner&quot;&gt;" />
+        <x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;carousel-item active&quot;&gt;" />
+
+        <x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;First slide&quot;&gt;" />
+        <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+        उत्तर प्रदेश के लिए
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+        *
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        (30 उपहार):
+        <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+        <x id="TAG_IMG_2" ctype="x-img_2" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;Second slide&quot;&gt;" />
+        <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+        उत्तराखंड के लिए
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+        *
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        (30 उपहार):
+        <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+        <x id="TAG_IMG_3" ctype="x-img_3" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot; alt=&quot;Third slide&quot;&gt;" />
+        <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+        गोवा के लिए
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+        *
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        (30 उपहार):
+        <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+        <x id="TAG_IMG_4" ctype="x-img_4" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;{{image}}img/prizetable.svg&quot;&gt;" />
+        <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+        पंजाब के लिए
+        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+        *
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        (30 उपहार):
+        <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;" />
+        <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+        Previous
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        <x id="START_LINK_1" equiv-text="&lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;" />
+        <x id="START_TAG_SPAN_3" ctype="x-span_3" equiv-text="&lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+        Next
+        <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+        <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;note mt-5&quot;&gt;" />
+        नोट-
+        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+        1. बंपर उपहार उस खिलाड़ी को दिया जाएगा, जिसका अनुमान संयुक्त रूप से सभी चार राज्यों यूपी, उत्तराखंड, पंजाब और गोवा के अंतिम परिणामों के सबसे करीब होगा.
+        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+        2. राज्य स्तरीय उपहार (यूपी या उत्तराखंड या पंजाब या गोवा) उन खिलाड़ियों को दिए जाएंगे, जिनके जवाब संबंधित राज्य में वास्तविक चुनाव परिणामों के सबसे करीब होंगे (जो 10 मार्च, 2022 को घोषित किए जाएंगे)
+        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        <x id="START_PARAGRAPH_1" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+        3. विषय वस्तु के बारे में अपने ज्ञान, निर्वाचन क्षेत्रों और ऐसी अन्य सभी संबंधित जानकारी/तथ्यों के बारे में गहराई से समझ के आधार पर आप जितना करीब से परिणाम बताने में सक्षम होंगे, आपकी रैंक उतनी ही ऊंची होगी और आपके उपहार जीतने की संभावना उतनी ही ज्यादा होगी.
+        <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+      </target>
+        <!-- <target>
+          <x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;../../../assets/img/prizebanner.svg&quot; class=&quot;img-100&quot;&gt;" />
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;arrow&quot;&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_4" ctype="x-div_4" equiv-text="&lt;div id=&quot;carouselExampleControls&quot; class=&quot;carousel slide mt-5&quot; data-ride=&quot;carousel&quot; data-interval=&quot;false&quot;&gt;" />
+          <x id="START_TAG_DIV_3" ctype="x-div_3" equiv-text="&lt;div class=&quot;carousel-inner&quot;&gt;" />
+          <x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;carousel-item active&quot;&gt;" />
+          <x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;../../../assets/img/prizetable.svg&quot; alt=&quot;First slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 उपहार):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_2" ctype="x-img_2" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;../../../assets/img/prizetable.svg&quot; alt=&quot;Second slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          उत्तराखंड के लिए
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 उपहार):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_3" ctype="x-img_3" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;../../../assets/img/prizetable.svg&quot; alt=&quot;Third slide&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          गोवा के लिए
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 उपहार):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_TAG_DIV_2" ctype="x-div_2" equiv-text="&lt;div class=&quot;carousel-item&quot;&gt;" />
+          <x id="TAG_IMG_4" ctype="x-img_4" equiv-text="&lt;img class=&quot;d-block w-100 px-3&quot; src=&quot;../../../assets/img/prizetable.svg&quot;&gt;" />
+          <x id="START_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;h5 class=&quot;text&quot;&gt;" />
+          पंजाब के लिए
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          *
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          (30 उपहार):
+          <x id="CLOSE_HEADING_LEVEL5" ctype="x-h5" equiv-text="&lt;/h5&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a class=&quot;carousel-control-prev&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;prev&quot;&gt;" />
+          <x id="START_TAG_SPAN_1" ctype="x-span_1" equiv-text="&lt;span class=&quot;carousel-control-prev-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+          Previous
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          <x id="START_LINK_1" equiv-text="&lt;a class=&quot;carousel-control-next&quot; href=&quot;#carouselExampleControls&quot; role=&quot;button&quot; data-slide=&quot;next&quot;&gt;" />
+          <x id="START_TAG_SPAN_3" ctype="x-span_3" equiv-text="&lt;span class=&quot;carousel-control-next-icon&quot; aria-hidden=&quot;true&quot;&gt;" />
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="START_TAG_SPAN_2" ctype="x-span_2" equiv-text="&lt;span class=&quot;sr-only&quot;&gt;" />
+          Next
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+          <x id="START_PARAGRAPH_2" equiv-text="&lt;p class=&quot;note mt-5&quot;&gt;" />
+          नोट-
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_3" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          1. बंपर उपहार उस खिलाड़ी को दिया जाएगा, जिसका अनुमान संयुक्त रूप से सभी चार राज्यों यूपी, उत्तराखंड, पंजाब और गोवा के अंतिम परिणामों के सबसे करीब होगा.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_3" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          2. राज्य स्तरीय उपहार (यूपी या उत्तराखंड या पंजाब या गोवा) उन खिलाड़ियों को दिए जाएंगे, जिनके जवाब संबंधित राज्य में वास्तविक चुनाव परिणामों के सबसे करीब होंगे (जो 10 मार्च, 2022 को घोषित किए जाएंगे)
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_PARAGRAPH_3" equiv-text="&lt;p class=&quot;p&quot;&gt;" />
+          3. विषय वस्तु के बारे में अपने ज्ञान, निर्वाचन क्षेत्रों और ऐसी अन्य सभी संबंधित जानकारी/तथ्यों के बारे में गहराई से समझ के आधार पर आप जितना करीब से परिणाम बताने में सक्षम होंगे, आपकी रैंक उतनी ही ऊंची होगी और आपके उपहार जीतने की संभावना उतनी ही ज्यादा होगी.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        </target> -->
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/prize/prize.component.html</context>
+          <context context-type="linenumber">2,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1307089298405358374" datatype="html">
+        <source> I agree to the Terms &amp; Conditions.</source>
+        <target>नियम व शर्तें मुझे मंजूर हैं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8104824812256560936" datatype="html">
+        <source>
+          Didn&apos;t receive OTP?   
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;text-danger outline text-center font-big&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+          Resend OTP
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        </source>
+        <target>
+          क्या आपको ओटीपी मिला?
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;text-danger outline text-center font-big&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+          दोबारा ओटीपी मंगवाएं
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7149035032909133432" datatype="html">
+        <source>You have not completed predicting all the seats. Please ensure you have 0 seats remaining before proceeding</source>
+        <target>आपने सभी सीटों की भविष्यवाणी नहीं की है. आगे बढ़ने से पहले कृपया सुनिश्चित करें कि आपके पास एक भी सीट (0) नहीं बची हो.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/state/state.component.html</context>
+          <context context-type="linenumber">247,248</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99906972522" datatype="html">
+        <source>Please agree to the T&amp;C to proceed</source>
+        <target>कृपया आगे बढ़ने से पहले T&amp;C पर सहमति जताएं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="99906972521" datatype="html">
+        <source>Ok</source>
+        <target>ठीक है</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3285315590661482349" datatype="html">
+        <source>Tips</source>
+        <target>टिप्स</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3218917989102538952" datatype="html">
+        <source>
+          New otp send to you entered mobile number
+          <x id="INTERPOLATION" equiv-text="{{number}}" />
+        </source>
+        <target>
+          आपके दर्ज मोबाइल नंबर
+          <x id="INTERPOLATION" equiv-text="{{number}}" />
+          पर  नया ओटीपी भेजा गया
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">132,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7753226078359243002" datatype="html">
+        <source>MORE GAME</source>
+        <target>अधिक खेल</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/congratulation/congratulation.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="196856758114553749" datatype="html">
+        <source> Play Election Ke Baazigar Game for FREE and WIN prizes worth Rs 5 lakhs!!! Just predict how many seats the major parties will win in the upcoming UP, MP, Punjab and Goa Assembly Elections 2022. Hurry!</source>
+        <target>खेलें इलेक्शन के बाज़ीगर गेम फ्री में और जीते 5 लाख रुपये के इनाम! बस अंदाज़ा लगाएं कि आने वाले यूपी, उत्तराखंड, पंजाब और गोवा के चुनावों में कौन सी बड़ी पार्टियां कितनी सीट जीतेंगी. देर न करें!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8628432736737157156" datatype="html">
+        <source>
+          Didn&apos;t receive OTP?  
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;text-danger outline text-center font-big&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+          Resend OTP
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        </source>
+        <target>
+          क्या आपको ओटीपी मिला?
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;text-danger outline text-center font-big&quot; (click)=&quot;resendOTP(otpSent)&quot;&gt;" />
+          दोबारा ओटीपी मंगवाएं
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8364786377549915850" datatype="html">
+        <source>
+          You have already predicted for
+          <x id="INTERPOLATION" equiv-text="{{state}}" />
+          before. Do you want to replace it with what you have predicted now?
+        </source>
+        <target>
+          आपने पहले ही
+          <x id="INTERPOLATION" equiv-text="{{state}}" />
+          का अनुमान लगा लिया है. क्या अब वाले अनुमान से आप उसे बदलना चाहते हैं?
+        </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">74,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3549626944255820335" datatype="html">
+        <source>
+          Tell Us Which Party Will Win How Many Seats In Uttar Pradesh, Punjab, MP &amp; Goa Election &amp; Win Upto Rs
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;font-weight-bolder  clr&quot;&gt;" />
+          2.5 LACS!!!
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          120+ Prizes On Offer - Hurry!
+        </source>
+        <target>हमें बताएं कि कौन सी मुख्य पार्टी यूपी, पंजाब,उत्तराखंड और गोवा चुनावों में कितनी सीटें जीतेगी और 2.5 लाख तक के 120 उपहार जीतें, जल्दी करें.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8584746279670477723" datatype="html">
+        <source>
+          For PRIZES,
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;../prize&apos;]&quot; routerLinkActive=&quot;navigation-active&quot; [routerLinkActiveOptions]=&quot;{exact:
+    true}&quot;&gt;" />
+          <x id="START_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;u class=&quot;link ml-1&quot;&gt;" />
+          Click Here
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          |
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;" />
+          Don&apos;t know how to play?  
+          <x id="START_UNDERLINED_TEXT_1" equiv-text="&lt;u class=&quot;link ml-1&quot; (click)=&quot;next()&quot;&gt;" />
+          Click Here
+          <x id="CLOSE_UNDERLINED_TEXT" ctype="x-u" equiv-text="&lt;/u&gt;" />
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+        </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7486321222949226136" datatype="html">
+        <source> Sorry, Election Ke Baazigar game is CLOSED now and we are not accepting any NEW registrations.</source>
+        <target>माफ कीजिए, चुनाव के बाजीगर गेम अब बंद हो चुका है और अब हम नए रजिस्ट्रेशन को स्वीकार नहीं कर रहे हैं.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">180,181</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5291727288675218768" datatype="html">
+        <source> Sorry, Election Ke Baazigar game is CLOSED now. If you have predicted already, come back on March 11th to check if you have won a prize.</source>
+        <target>माफ कीजिए, चुनाव के बाजीगर गेम अब बंद हो चुका है. अगर आपने पहले ही पूर्वानुमान लगाया है तो 11 मार्च को वापस आइये और यह पता करिए कि क्या आपने पुरस्कार जीता है.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/verifynumber/verifynumber.component.html</context>
+          <context context-type="linenumber">165,166</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/view/view.component.html</context>
+          <context context-type="linenumber">163,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6993640750266345284" datatype="html">
+        <source> The Game is CLOSED now. Winners will be announced on 11th March, 6 pm. Come back to check if you have won a prize. Good luck! </source>
+        <target>गेम अब बंद है. 11 मार्च की शाम 6 बजे विजेताओं के नाम का एलान किया जाएगा. आपका नाम विजेताओं की लिस्ट में है या नहीं ये जानने के लिए हमारी वेबसाइट पर वापस आएं. गुड लक.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3787050687842841344" datatype="html">
+        <source>Winner</source>
+        <target>विजेता</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7686709540153758888" datatype="html">
+        <source> WINNERS have been announced. <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;[&apos;/rank&apos;]&quot; class=&quot;link&quot;&gt;"/>Click Here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> to check if you have won a prize </source>
+        <target>विजेताओं का एलान कर दिया गया है. अगर आपने पुरस्कार जीता है तो यहां पर क्लिक करें</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/t/t.component.html</context>
+          <context context-type="linenumber">15,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1234567891" datatype="html">
+        <source>Congratulations to all the winners. If you have won a prize, you will receive a confirmation SMS from us on or before 15th March, 2022. Instructions to claim the prize will be provided in the SMS</source>
+        <target>सभी विजेताओं को बधाई. अगर आपने पुरस्कार जीता है तो आपके पास हमारी तरफ से 15 मार्च या उससे पहले एक कंफर्मेशन का मैसेज जाएगा. पुरस्कार कैसे पाएं, इस बारे में निर्देश विजेताओं को एसएमएस के जरिए दिए जाएंगे</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/election/rank/rank.component.html</context>
+          <context context-type="linenumber">183,186</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

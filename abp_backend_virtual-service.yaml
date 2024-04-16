@@ -1,0 +1,20 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: abp-frontend
+spec:
+  hosts:
+    - backend.gamixlabs.com
+  gateways:
+    - gamixlabs-gateway
+  http:
+    - match:
+      - uri:
+          prefix: /abp/
+      rewrite:
+        uri: /
+      route:
+        - destination:
+            host: abp-frontend
+            port:
+              number: 4200

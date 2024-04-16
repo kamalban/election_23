@@ -1,0 +1,187 @@
+<div *ngIf="flag">
+  <div class="box">
+
+    <!-- <div class="d-flex justify-content-center">
+      <img src="{{image}}img/VerifyNumber.svg">
+    </div> -->
+
+    <p class="mobile_font mt-2 text-center" i18n>Mobile Number</p>
+
+    <p class="enter_mobile" i18n>Please enter your 10-digit mobile number. This number will be used to contact you if
+      you win a prize.</p>
+
+    <label class="input_lable">+91</label><input type="tel" name="" maxlength="10" class="input" required
+      [(ngModel)]="number">
+    <button class="verify btn mt-5" type="submit" (click)="sendNumber(invalidMobileNumber)" i18n>Next</button>
+  </div>
+  <!--<input type="text" [(ngModel)]="number">
+  <button type="submit" (click)="sendNumber()">submit</button>-->
+</div>
+
+
+
+<div *ngIf="!flag">
+  <div class="box">
+    <!-- <div class="d-flex justify-content-center">
+      <img src="{{image}}img/VerifyNumber.svg" class="mt-3">
+    </div> -->
+
+    <p class="mobile_font text-center mt-4" i18n>OTP</p>
+    <p class="enter_mobile" i18n>Please enter the 4-digit code sent to you at {{number}} <img
+        src="{{image}}img/Edit.svg" class="img-fluid ml-2" (click)="backToMobileNumber()"></p>
+    <div class="otp">
+      <input id="first" type="tel" maxlength="1" class="otp_input" [(ngModel)]="num1"
+        (keyup)="clickEvent($event, 'first','second')">
+      <input id="second" type="tel" maxlength="1" class="otp_input" [(ngModel)]="num2"
+        (keyup)="clickEvent($event,'first','third')">
+      <input id="third" type="tel" maxlength="1" class="otp_input" [(ngModel)]="num3"
+        (keyup)="clickEvent($event,'second','fourth')">
+      <input id="fourth" type="tel" maxlength="1" class="otp_input" [(ngModel)]="num4"
+        (keyup)="clickEvent($event,'third','fourth')">
+    </div>
+
+
+    <div *ngIf="minute === 0 && seconds === 0" class="d-flex justify-content-center iflogin mb-3 mt-4 text-center" i18n>
+      Didn't receive OTP? &nbsp;&nbsp;<div class="text-danger outline text-center font-big" (click)="resendOTP(otpSent)">Resend OTP</div>
+      
+    </div>
+    
+
+    <div *ngIf="minute !== 0 || seconds !== 0" class="d-flex justify-content-center my-3">
+      <img src="{{image}}img/Time Circle.svg" class="img-fluid">
+      <span *ngIf=" seconds >= 10" class="ml-2 clr-time"> 0{{minute}}:{{seconds}}&nbsp;</span>
+      <span *ngIf=" seconds <= 9" class="ml-2 clr-time"> 0{{minute}}:0{{seconds}} &nbsp;</span>sec
+    </div>
+
+
+
+    <button class="verify btn mt-2" type="submit" (click)="sendOTP(forceUpdate,invalidOTP)" i18n>NEXT</button>
+
+
+    <div class="mb-3"></div>
+
+  </div>
+  <!--<button type="submit" (click)="sendOTP(forceUpdate)">submit OTP</button>-->
+</div>
+
+
+<ng-template #forceUpdate let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">Hey! {{number}}</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n="@@6249439377700256442"> You have already predicted for  {{state}} before. Do you want to replace it with what you have predicted
+      now?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen yes" (click)="overrideTeamdata();d('Cross click')">
+      <span i18n>Yes</span>
+    </button>
+    <button type="button" class="btn clrred no" (click)="d('Cross click')"  [routerLink]="['/state',{}]">
+      <span i18n> No</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #invalidOTP let-c="close" let-d="dismiss" class="popupcenter">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">
+      <img src="{{image}}img/error.svg" class="mr-2">Whoops
+    </h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n>Incorrect OTP. Please try again.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" (click)="d('Cross click')">
+      <span i18n>Try Again</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #invalidMobileNumber let-c="close" let-d="dismiss">
+  <div class="modal-header">
+
+    <h4 class="modal-title" id="modal-basic-title"> <img src="{{image}}img/error.svg" class="mr-2">Whoops</h4>
+
+
+
+  </div>
+  <div class="modal-body">
+    <p i18n>Uh-oh! Please enter your 10-digit mobile number.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" (click)="d('Cross click')">
+
+      <span i18n>Try Again</span>
+
+    </button>
+  </div>
+</ng-template>
+
+<!-- Center Pop UP  -->
+<div class="position-center">
+  <ng-template #otpSent let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title" i18n>OTP</h4>
+
+    </div>
+    <div class="modal-body">
+      <p i18n>New otp send to you entered mobile number {{number}}</p>
+    </div>
+    <div class="modal-footer">
+      <button type="button" (click)="d('Cross click')">
+        <span class="ok" i18n="@@99906972521">Ok</span>
+      </button>
+    </div>
+  </ng-template>
+</div>
+<!-- Center Pop Up -->
+
+
+<ng-template #internetNotWorking let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Oops, no internet connection! Please check the connection and try again.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #failedUpdate let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Sorry, Election Ke Baazigar game is CLOSED now. If you have predicted already, come back on March 11th to check if you have won a prize.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@99906972521" [routerLink]="['/home']">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #registrationClosed let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Sorry, Election Ke Baazigar game is CLOSED now and we are not accepting any NEW registrations.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@99906972521" [routerLink]="['/home']">Ok</span>
+    </button>
+  </div>
+</ng-template>

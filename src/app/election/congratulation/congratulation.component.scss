@@ -1,0 +1,253 @@
+/*Congrats*/
+
+.Congrats {
+  width: 100%;
+  height:   350px;
+  background: #503E96;
+  border-radius: 3px;
+  position: relative;
+
+
+
+
+}
+
+.congrats-arrange {
+  position: absolute;
+  top: -23px;
+}
+
+.text-arrange {
+  position: absolute;
+  bottom: -8px;
+}
+
+
+.bazigaar {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top:25px;
+
+}
+
+.orange {
+  color: #FF8051 !important;
+}
+
+
+.congrats_btn {
+
+  width: 299px;
+  height: 44.81px;
+  background: #FFFF;
+  box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+
+}
+
+
+.congrats_btn span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+
+
+}
+
+
+.img-100 {
+  width: 100%;
+}
+
+
+// ADD GAME CSS
+
+.background {
+  width: 94%;
+  padding: 50px 0px 45px 0px;
+  margin: 20px auto;
+  background: #503e96;
+  border-radius: 25px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.gameimage {
+  display: flex;
+  justify-content: space-evenly;
+  width:90%;
+  
+}
+
+.gameimage a{
+  flex: 0 0 33%;
+}
+
+.morebutton {
+  position: absolute;
+  top: -18px;
+
+}
+
+
+.morebutton a button {
+
+  background-color: #FFFFFF;
+  padding: 8px 60px;
+  border-radius: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  color: #000;
+  outline: none;
+  border: none;
+}
+
+
+
+.posre {
+  position: relative;
+}
+
+.posab {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.postick {
+  position: absolute;
+  right: -4px;
+  top: -12px;
+}
+
+
+.morelink {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+
+  letter-spacing: -0.24px;
+  text-decoration-line: underline;
+
+  color: #FFFFFF;
+}
+
+.morelink u {
+  color: white;
+}
+
+
+.text-asian {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  color: #FFFFFF;
+}
+
+.yellowbox {
+  position: relative;
+  width: 90%;
+  top: 15px;
+  left: 50%;
+  transform: translate(-50%);
+  background-color:#FEC743;
+  padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.yellowbox span{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+text-align: center;
+color: #423412;
+}
+
+.yellowbox img{
+  position: relative;
+  top: -4px;
+}
+
+.margin-top{
+  margin-top:30px;
+}
+
+
+
+
+@media(max-width:540px) {
+  .text-asian {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    color: #FFFFFF;
+    position: relative;
+    top: -8px;
+  }
+
+  .Congrats {
+    width: 100%;
+    height: 255px;
+    background: #503E96;
+    border-radius: 3px;
+    position: relative;
+}
+
+
+  .bazigaar {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+  
+  }
+
+  .yellowbox span{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4vw;
+  text-align: center;
+  color: #423412;
+  }
+
+  .yellowbox img{
+    position: relative;
+    top: -1px;
+  }
+
+
+}

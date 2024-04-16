@@ -1,0 +1,72 @@
+<div class="topbar d-flex">
+
+  <!-- onclick="myFunction(false)" -->
+  <div>
+    <img src="{{image}}img/menu.svg" class="mr-2 img-fluid z" onclick="myFunction(false)">
+    <img src="{{image}}img/games-masti-logo.svg" class="logo img-fluid">
+
+  </div>
+
+
+
+  <!--<div class="lang">
+    <a href="/"><button class="English top" (click)="changeLan()">English</button></a>
+     <a href='/hi/'><button class="Hindi top" (click)="changeLan()">हिन्दी</button></a>
+    <a href='/pb/'><button class="Punjabi top" (click)="changeLan()">ਪੰਜਾਬੀ</button></a>
+
+  </div>-->
+
+
+
+
+
+  <div *ngIf="user === false " class="costum-btn">
+    <span [routerLink]="['/verify',{'user':true}]" i18n>Login</span>
+  </div>
+  <div *ngIf="user === true " class="costum-btn">
+    {{userNum}}
+  </div>
+
+</div>
+
+
+<div class="d-flex flex-column minus-margin">
+  <!-- <a href="" target="_blank"><img src="{{image}}img/coinswitch.svg" class="d-block m-auto w-50"> </a> -->
+  <img src="{{image}}img/Logo.svg" class="d-block m-auto w-75 pl-4">
+</div>
+
+
+
+<!-- Sidebar -->
+<!-- onclick="myFunction(true)" -->
+<div class="sidebar" id="myBtn"  onclick="myFunction(true)">
+  <div class="sixtyfive">
+  <img src="{{image}}img/Header.svg" class="img-100" > 
+  <ul>
+   
+    <li class="homebor">
+      <img src="{{image}}img/homeblue.svg" class="imghome">
+      <a class="home" [routerLink]="['home']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+        true}" i18n>Home</a>
+      </li>
+    <li>
+      <img src="{{image}}img/gameside.svg">
+      <a  class="play" [routerLink]="['howtoplay']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+        true}" i18n>How to Play</a>
+    </li>
+    <li><img src="{{image}}img/termcondition.svg"><a  [routerLink]="['term']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+      true}" class="termcon" i18n>Terms & Conditions</a></li>
+
+    <li><img src="{{image}}img/help.svg" class="imghelp"><a [routerLink]="['faq']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+      true}" class="help" i18n>Faq</a></li>
+</ul>
+</div>
+
+
+</div>
+
+
+
+
+ 
+

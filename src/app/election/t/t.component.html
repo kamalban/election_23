@@ -1,0 +1,62 @@
+
+<!-- <app-swiper></app-swiper> -->
+<div class="d-flex justify-content-center">
+<img src="{{image}}img/Homepagesbanner.png" class="img-100" >
+  </div>
+   
+  <div class="container px-2 mb-1">
+  <p class="prize" i18n>For PRIZES,<a [routerLink]="['../prize']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+    true}"><u class="link ml-1">Click Here</u></a> | <span>Don't know how to play?&nbsp;&nbsp;<u class="link ml-1" (click)="next()">Click Here</u></span></p> 
+  </div>
+
+<div class="container px-2 mb-1 text-center">
+  <span class="ptext" i18n> Game entries are now CLOSED. If you have participated in the game, you
+    may view your prediction after logging in. To check if you have won a prize, come back at 9
+    pm on 6th December, 2023 and check WINNER page. <a [routerLink]="['/rank']" class="link">Click Here</a> to check if you have won a prize
+  </span>
+  </div>
+
+
+<div class="term" *ngIf="strtBtn === false" >
+  <label class="checkbox" for="checkboxid"> 
+	<input type="checkbox" name="name" class="checkboxinput" id="checkboxid" (click)="changeIsenabled()" i18n>
+  <div class="divcheckbox"></div>
+  <span i18n="@@6207081224227272786"> I agree to the <a [routerLink]="['term']" routerLinkActive="navigation-active" [routerLinkActiveOptions]="{exact:
+    true}" class="text-white">&nbsp;<u class="link ml-1">Terms & Conditions</u></a></span>
+</label>
+</div>
+
+
+	
+<button *ngIf="strtBtn === false" class="proceed" (click)="state(checkBoxPopUp)">	<span i18n>NEXT</span></button>
+
+
+<button *ngIf="strtBtn === true" class="proceed" (click)="start()">	<span i18n>START</span></button>
+
+<div class="term" *ngIf="strtBtn === true" ><p style="background: #eae0bd;
+  padding: 9px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #692808;"> For more games, go to <a style="color:#2c0b79;text-decoration: underline;" href="https://www.gamesmasti.com/">Gamesmasti.com</a></p></div>
+
+
+<ng-template #checkBoxPopUp let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n="@@99906972522"> Please agree to the T&C to proceed</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+
+
+  
+
+ 

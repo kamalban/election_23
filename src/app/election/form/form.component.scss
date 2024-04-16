@@ -1,0 +1,200 @@
+/*Proceed Page*/
+.verify {
+
+    width: 299px;
+    height: 44.81px;
+    background: #FDCD55;
+    box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+  
+  }
+  
+  
+  .box{width:80%;
+    margin: auto;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0 7px 11px #13131326;
+    border-radius: 20px 20px 20px 20px;
+    padding: 20px;}
+  
+  .mobile_font {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 2px;
+  }
+  
+  
+  
+  .enter_mobile {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .form-control {
+    background: #F2F2F3;
+  }
+  
+  
+  .iflogin {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    font-feature-settings: 'cpsp'on;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  
+  .otp {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  
+  .otp_input {
+    width: 22px;
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 0px;
+    /* identical to box height, or 0% */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  
+    color: #1C1C1C;
+  }
+  
+  
+  .otp_input:focus {
+    border: none;
+  }
+  
+  .clr-time {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+  
+  
+    /* Violet / Violet 100 */
+  
+    color: #7F3DFF;
+  
+  }
+  
+  /*91 code Fixed*/
+  
+  .input_lable {
+    padding: 10px 15px;
+    background: #F2F2F3;
+    width: 20%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  .input_lable::after {
+    content: '|';
+    color: #CFCECE;
+    margin-left: 9px;
+
+  
+  }
+  
+  .input {
+    width: 80%;
+    padding: 10px 0px;
+    font-size: 20px;
+    border: none;
+    background: #F2F2F3;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    border-radius: 0px 5px 5px 0px;
+  
+  
+  }
+  
+  
+  
+  
+  .outline {
+    text-decoration: underline;
+  
+  }
+  
+  .clrgreen {
+    background: #45E472 !important;
+    box-shadow: 0px 4px 7px rgba(69, 228, 114, 0.43);
+    border-radius: 30px;
+  }
+  
+  
+  
+  
+  .yes{
+    padding: 6px 30px;
+  }
+  
+  .no{
+    padding: 6px 30px;
+  }
+  
+  .font-big{
+    font-size:18px;
+    font-weight: 600;
+  }
+  
+  .position-center{
+    position:absolute!important;
+    top:50%;
+  }
+  
+  
+  
+  @media(max-width:540px){
+   .box {
+      width: 347px;
+       margin: auto;
+       height: auto;
+       background: #FFFFFF;
+       box-shadow: 0px 7px 11px rgba(19, 19, 19, 0.15);
+       border-radius: 20px 20px 0px 0px;
+       padding: 20px;
+     }
+  }

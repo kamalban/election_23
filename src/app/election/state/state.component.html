@@ -1,0 +1,334 @@
+
+<div *ngIf="stateName === 'UP' || stateName === 'up' || stateName === 'Up'">
+  <div class="zone">
+    <button [ngClass]="{'active': awadh , 'tick': leftAwadh == 0}" class="btn" 
+      [ngStyle]="{'background-color' : leftAwadh === 0 ? '#00FFFF' : 'white'}"
+      (click)="switchTable('awadh','null')" i18n>1.Awadh</button>
+    <button [ngClass]="{'active': purwanchal, 'tick': leftPurwanchal == 0}" class="btn"
+    [ngStyle]="{'background-color' : leftPurwanchal === 0 ? '#00FFFF' : 'white'}"
+      (click)="switchTable('purwanchal','null')" i18n>2.Purwanchal</button>
+    <button [ngClass]="{'active': westUP, 'tick': leftWestUP == 0}" class="btn "
+    [ngStyle]="{'background-color' : leftWestUP === 0 ? '#00FFFF' : 'white'}"
+      (click)="switchTable('westUP','null')" i18n>3.West U.P.</button>
+    <button [ngClass]="{'active': bundelkhand, 'tick': leftBundelkhand == 0}" class="btn"
+    [ngStyle]="{'background-color' : leftBundelkhand === 0 ? '#00FFFF' : 'white'}"
+      (click)="switchTable('bundelkhand','null')" i18n>4.Bundelkhand</button>
+  </div>
+ <div class="box mt-3">
+    <!-- AWADH -->
+    <div *ngIf="awadh === true">
+      <div class="zone-top">
+        <p class="left" i18n="@@3210410893786699128">Awadh (118 Seats)</p>
+        <div class="right">
+          <button type="submit" [ngClass]="{ 'blink-soft' : previewButton === true}" class="preview"  (click)="preview()">
+            <span *ngIf="previewButton != true" i18n>Preview</span>
+            <span *ngIf="previewButton === true" i18n>PREVIEW & SAVE NOW</span>
+          </button>
+          <!-- <button *ngIf="isNextBtn === true" class="preview" (click)="switchTable('1','next',index)" i18n>NEXT</button> -->
+          </div>
+      </div>
+      <p class="p" i18n>Predict the seats for each party
+       <img src="../../../assets/img/Back.svg" class="back" (click)="switchTable('1','back',0)">
+        <img src="../../../assets/img/Next.svg" class="next" (click)="switchTable('1','next',index)"> 
+      </p>
+      <div class="px-3 pos" *ngFor='let data of sliderData; let i = index'>
+        <div *ngIf='data.zone === "Awadh"'>
+          <div class="mt-4">
+            <a class="font_arrange" data-toggle="collapse" [href]="'#'+getId(data.name)" role="button"
+              aria-expanded="false" aria-controls="getId(data.name)">{{data.name}}</a>
+            <mv-slider id='slider{{i}}' [(value)]=data.value [min]=data.min [max]=data.size [enabled]="enabled"
+              (slideStop)="onChange($event, i, 'slider')">
+            </mv-slider>
+            <input type="number" [(ngModel)]=data.value (keyup)="onChange($event, i, 'input')" id='input{{i}}'
+              class="number">
+            <div class="collapse mt-2" [id]="getId(data.name)">
+              <div *ngIf="group[stateName][data.zone][data.name].length !== 0" class="card card-body">
+                <div *ngFor="let g of group[stateName][data.zone][data.name]">
+                  <button [ngStyle]="{'background-color': true ? g.color : 'white'}" class="subparty">{{g.name}}</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remaning"><script>  ga('send', 'pageview');
+      </script>
+        <span class="seattext" i18n>Seats remaining to be selected : </span>
+        <span class="seat">{{leftAwadh}}/118</span>
+      </div>
+      <div class="pb-5"></div>
+    </div>
+    <!-- AWADH END -->
+    <div *ngIf="bundelkhand === true">
+      <div class="zone-top">
+        <p class="left" i18n="@@9017107007520577969">Bundelkhand(19 Seats)</p>
+        <div class="right">
+          <button type="submit" [ngClass]="{ 'blink-soft' : previewButton === true}" class="preview"    (click)="preview()" i18n >
+            <span *ngIf="previewButton != true">Preview</span>
+            <span *ngIf="previewButton === true">PREVIEW & SAVE NOW</span>
+          </button>
+          <!-- <button *ngIf="isNextBtn === true " class="preview" (click)="switchTable('1','next',index)" i18n>NEXT</button> -->
+          </div>
+      </div>
+      <p class="p" i18n>Predict the seats for each party
+        <img src="../../../assets/img/Back.svg" class="back" (click)="switchTable('1','back',index)">
+        <img src="../../../assets/img/Next.svg" class="next" (click)="switchTable('1','next',index)"> 
+      </p>
+      <div class="px-3 pos" *ngFor='let data of sliderData; let i = index'>
+        <div *ngIf='data.zone === "Bundelkhand"'>
+          <div class="mt-4">
+            <a class="font_arrange" data-toggle="collapse" [href]="'#'+getId(data.name)" role="button"
+              aria-expanded="false" aria-controls="getId(data.name)">{{data.name}}</a>
+            <mv-slider id='slider{{i}}' [(value)]=data.value [min]=data.min [max]=data.size [enabled]="enabled"
+              (slideStop)="onChange($event, i, 'slider')">
+            </mv-slider>
+            <input class="number" type="number" [(ngModel)]=data.value (keyup)="onChange($event, i, 'input')"
+              id='input{{i}}'>
+            <div class="collapse mt-2" [id]="getId(data.name)">
+              <div  *ngIf="group[stateName][data.zone][data.name].length !== 0" class="card card-body">
+
+                <div *ngFor="let g of group[stateName][data.zone][data.name]">
+                  <button [ngStyle]="{'background-color': true ? g.color : 'white'}" class="subparty">{{g.name}}</button>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remaning">
+        <span class="seattext" i18n>Seats remaining to be selected : </span>
+        <span class="seat">{{leftBundelkhand}}/19</span>
+      </div>
+      <div class="pb-5"></div>
+    </div>
+    
+    <div *ngIf="purwanchal === true">
+      <div class="zone-top">
+        <p class="left"i18n="@@4891884320860207287">Purwanchal(130 Seats)</p>
+        <div class="right">
+          <button type="submit" [ngClass]="{ 'blink-soft' : previewButton === true}" class="preview" (click)="preview()" i18n >
+            <span *ngIf="previewButton != true">Preview</span>
+            <span *ngIf="previewButton === true">PREVIEW & SAVE NOW</span>
+          </button>
+          <!-- <button *ngIf="isNextBtn === true" class="preview" (click)="switchTable('1','next',index)" i18n>NEXT</button> -->
+          </div>
+      </div>
+      <p class="p" i18n>Predict the seats for each party
+        <img src="../../../assets/img/Back.svg" class="back" (click)="switchTable('1','back',index)">
+        <img src="../../../assets/img/Next.svg" class="next" (click)="switchTable('1','next',index)"> 
+      </p>
+      <div class="px-3 pos" *ngFor='let data of sliderData; let i = index'>
+        <div *ngIf='data.zone === "Purwanchal"'>
+          <div class="mt-4">
+            <a class="font_arrange" data-toggle="collapse" [href]="'#'+getId(data.name)" role="button"
+              aria-expanded="false" aria-controls="getId(data.name)">{{data.name}}</a>
+            <mv-slider id='slider{{i}}' [(value)]=data.value [min]=data.min [max]=data.size [enabled]="enabled"
+              (slideStop)="onChange($event, i, 'slider')">
+            </mv-slider>
+            <input type="number" [(ngModel)]=data.value (keyup)="onChange($event, i, 'input')" id='input{{i}}'
+              class="number">
+            <div class="collapse mt-2" [id]="getId(data.name)">
+              <div *ngIf="group[stateName][data.zone][data.name].length !== 0" class="card card-body">
+                <div *ngFor="let g of group[stateName][data.zone][data.name]">
+                  <button [ngStyle]="{'background-color': true ? g.color : 'white'}" class="subparty">{{g.name}}</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remaning">
+        <span class="seattext" i18n>Seats remaining to be selected : </span>
+        <span class="seat">{{leftPurwanchal}}/130</span>
+      </div>
+      <div class="pb-5"></div>
+    </div>
+    <div *ngIf="westUP === true">
+      <div class="zone-top">
+        <p class="left" i18n="@@3282160861818675509">West U.P.(136 Seats)</p>
+        <div class="right">
+          <button type="submit" [ngClass]="{ 'blink-soft' : previewButton === true}" class="preview" (click)="preview()">
+            <span *ngIf="previewButton != true" i18n>Preview</span>
+            <span *ngIf="previewButton === true" i18n>PREVIEW & SAVE NOW</span>
+          </button>
+          <!-- <button *ngIf="isNextBtn === true" class="preview" (click)="switchTable('1','next',index)" i18n>NEXT</button> -->
+          </div>
+      </div>
+      <p class="p" i18n>Predict the seats for each party
+        <img src="../../../assets/img/Back.svg" class="back" (click)="switchTable('1','back',index)">
+        <img src="../../../assets/img/Next.svg" class="next" (click)="switchTable('1','next',index)"> 
+      </p>
+      <div class="px-3 pos" *ngFor='let data of sliderData; let i = index'>
+        <div *ngIf='data.zone === "West UP"'>
+          <div class="mt-4">
+            <a class="font_arrange" data-toggle="collapse" [href]="'#'+getId(data.name)" role="button"
+              aria-expanded="false" aria-controls="getId(data.name)">{{data.name}}</a>
+            <mv-slider id='slider{{i}}' [(value)]=data.value [min]=data.min [max]=data.size [enabled]="enabled"
+              (slideStop)="onChange($event, i, 'slider')">
+            </mv-slider>
+            <input type="number" [(ngModel)]=data.value (keyup)="onChange($event, i, 'input')" id='input{{i}}'
+              class="number">
+            <div class="collapse mt-2" [id]="getId(data.name)">
+              <div *ngIf="group[stateName][data.zone][data.name].length !== 0" class="card card-body">
+                <div *ngFor="let g of group[stateName][data.zone][data.name]">
+                  <button [ngStyle]="{'background-color': true ? g.color : 'white'}" class="subparty">{{g.name}}</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="remaning">
+        <span class="seattext" i18n>Seats remaining to be selected : </span>
+        <span class="seat">{{leftWestUP}}/136</span>
+      </div>
+      <div class="pb-5"></div>
+    </div>
+
+  </div>
+  <!-- <div class="button" *ngIf="stateName === 'UP' || stateName === 'up' || stateName === 'Up'">
+   <button *ngIf="isBackBtn === true" class="  posrleft" (click)="switchTable('1','back',index)" i18n>BACK</button>
+   <button type="submit" class="preview poscenter" (click)="preview()" i18n>Preview</button> 
+   <button *ngIf="isNextBtn === true" class="  posright" (click)="switchTable('1','next',index)" i18n>NEXT</button>
+  </div> -->
+</div>
+<!-- Box One End -->
+<div *ngIf="stateName !== 'UP'">
+  <div class="box mt-3">
+    <div class="zone-top">
+      <p class="left">({{totalSeat}} Seats)</p>
+    <div class="right">
+        <button type="submit"  [ngClass]="{ 'blink-soft' : previewButton === true}" class="preview" (click)="preview()">
+          <span *ngIf="previewButton != true" i18n>Preview</span>
+          <span *ngIf="previewButton === true" i18n>PREVIEW & SAVE NOW</span>
+        </button>
+        </div>
+    </div>
+    <p class="p" i18n>Predict the seats for each party
+      
+    </p>
+    <div class="px-3 pos" *ngFor='let data of sliderData; let i = index'>
+      <div class="mt-4 election-slider-outer">
+        <a class="font_arrange" data-toggle="collapse" [href]="'#'+getId(data.name)" role="button" aria-expanded="false"
+          aria-controls="getId(data.name)">{{data.name}}</a>
+        <mv-slider id='slider{{i}}' [(value)]=data.value [min]=data.min [max]=data.size [enabled]="enabled"
+          (slideStop)="onChange($event, i, 'slider')">
+        </mv-slider>
+        <input class="number" type="number" [(ngModel)]=data.value (keyup)="onChange($event, i, 'input')" id='input{{i}}'>
+        <div class="collapse mt-2" [id]="getId(data.name)">
+          <div *ngIf="group[stateName][data.name].length !== 0" class="card card-body">
+            <div *ngFor="let g of group[stateName][data.name]">
+            <button [ngStyle]="{'background-color': true ? g.color : 'white'}" class="subparty" i18n>{{g.name}}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="remaning">
+      <span class="seattext" i18n>Seats remaining to be selected : </span>
+      <span class="seat">{{leftState}}/{{totalSeat}}</span>
+    </div>
+    <div class="pb-5"></div>
+  </div>
+
+</div>
+
+<!-- Scroll In -->
+
+<!-- Swiper Html Start -->
+<!-- <app-swiper></app-swiper> -->
+<!-- Swiper Html End -->
+
+<!-- Costume Pop Ups -->
+
+
+
+
+<!-- Costume Pop ups End -->
+
+
+
+  
+<ng-template #internetNotWorking let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Oops, no internet connection! Please check the connection and try again.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span> 
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #failedUpdate let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Contest closed. You cant update your team now.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521" [routerLink]="['/']">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #previewBtn let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n>You have not completed predicting all the seats. Please ensure you have 0 seats remaining before proceeding</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #sliderMove let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n>You don't have any seats left to predict. You may reduce predicted seats of another party to increase seats for this party.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+
+<ng-template #previewPrediciton let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title"></h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n>Your prediction is complete. Please save your prediction now!</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="preview()" (click)="d('Cross click')">
+      <span class="nointernate" >PREVIEW & SAVE</span>
+    </button>
+    <button type="button" class="btn clrred" (click)="d('Cross click')">
+      <span class="nointernate">cancel</span>
+    </button>
+  </div>
+</ng-template>
+
+
+ 
+ 

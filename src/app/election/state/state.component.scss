@@ -1,0 +1,598 @@
+.zone {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.zone button {
+      border-radius: 100px;
+      color: #000000;
+      opacity: 0.8;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 10.5px;
+      opacity: 0.8;
+      letter-spacing: 0.2px;
+    }
+    .zone .active {
+      opacity: 1;
+      box-shadow: 0px 6px 14px 6px rgba(0, 0, 0, 0.32) !important;
+    }
+
+// Box
+
+.box {
+  width: 96%;
+  margin: auto;
+  // min-height: 300px;
+  // height: 50vh;
+
+  /* Color-White */
+  background: #ffffff;
+  box-shadow: 0px -5px 18px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+}
+
+.zone-top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdcd55;
+  padding: 0px 20px;
+  border-radius: 20px 20px 0px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.right {
+margin-top: 12px;
+}
+
+.left {
+  font-size: 16px !important;
+  margin-top: 15px;
+}
+
+.zone-top .left {
+  font-size: 13px;
+}
+
+.p {
+  margin-top: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  position: relative;
+}
+
+.remaning {
+  position: relative;
+  left: 50%;
+  top: 30px;
+  transform: translate(-50%);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+  padding: 10px 10px;
+  background: rgba(227, 228, 229, 0.48);
+  border-radius: 10px;
+  text-align: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seattext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+
+.seat {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.party-arrange {
+  display: flex;
+  justify-content: space-around;
+}
+
+.party {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1c1c1c;
+}
+
+.arrange {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Number-Box {
+  background-color: #e3e5e5;
+  width: 44px;
+  height: 27px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.sponser {
+  display: flex;
+  overflow: hidden;
+  background: #5e46d5 !important;
+}
+
+.sponser img {
+  position: relative;
+  left: -46px;
+  margin: 40px 0px 100px 0px;
+}
+
+.width {
+  height: 10px;
+  width: 10% !important;
+  margin-top: -5px;
+  top: 50%;
+  left: 0;
+  display: inline-block;
+}
+
+.font_arrange {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  /* identical to box height */
+  color: #1c1c1c;
+}
+
+.number {
+  width: 44px;
+  text-align: center;
+  position: absolute;
+  top: -2px;
+  height: 27px;
+  left: 83%;
+  background-color: #e3e5e5;
+  border: none;
+  border-radius: 5px;
+}
+
+.pos {
+  position: relative;
+  top: 10px;
+}
+
+.collapse {
+  padding: 0px 2% 0px 0px;
+}
+
+.subparty {
+  border: none;
+  margin: 5px 3px;
+  padding: 5px 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.button {
+  display: flex !important;
+  justify-content: space-between;
+  padding: 0px 2%;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.button button {
+  background-color: #fdcd55;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 5px 20px;
+  color: #000000;
+}
+
+.otherstate {
+  display: flex !important;
+  flex-direction: row-reverse;
+  padding: 0px 2%;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.otherstate button {
+  background-color: #fdcd55;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 5px 20px;
+  color: #000000;
+}
+
+.tick {
+  position: relative;
+}
+
+    .seat {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+    }
+
+
+    .party-arrange {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .party {
+
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #1C1C1C;
+    }
+
+
+    .arrange {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .Number-Box {
+      background-color: #E3E5E5;
+      width: 44px;
+      height: 27px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 10px;
+
+    }
+
+
+
+    .sponser {
+      display: flex;
+      overflow: hidden;
+      background: #5E46D5 !important;
+    }
+
+
+    .sponser img {
+      position: relative;
+      left: -46px;
+      margin: 40px 0px 100px 0px;
+    }
+
+
+    .width {
+      height: 10px;
+      width: 10% !important;
+      margin-top: -5px;
+      top: 50%;
+      left: 0;
+      display: inline-block;
+    }
+
+    .font_arrange {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      /* identical to box height */
+      color: #1C1C1C;
+
+    }
+
+    .number {
+      width: 44px;
+      text-align: center;
+      position: absolute;
+      top:-2px;
+      height: 27px;
+      left: 83%;
+      background-color: #E3E5E5;
+      border: none;
+      border-radius: 5px;
+
+
+    }
+
+    .pos {
+      position: relative;
+      top: 10px;
+    }
+
+    .collapse {
+      padding: 0px 2% 0px 0px;
+    }
+
+    .subparty {
+      border: none;
+      margin: 5px 3px;
+      padding: 5px 20px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      border-radius: 25px;
+      text-transform: uppercase;
+    
+    }
+
+    .button {
+      // display: flex;
+      // justify-content: space-between;
+      // flex-direction: row-reverse;
+      padding: 0px 2%;
+      margin:15px 0px;
+      width:100%;
+      position: relative;
+      height:30px;
+
+    }
+
+    .button button {
+      background-color: #FDCD55;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      text-align: center;
+      letter-spacing: -0.24px;
+      text-transform: uppercase;
+      border-radius: 25px;
+      padding: 5px 20px;
+      color: #000000;
+    }
+
+.preview{
+  background-color: #ffffff!important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  text-align: center;
+  letter-spacing: -0.24px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 5px 25px;
+  color: #F28C2E!important;
+  background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 30px;
+}
+
+.posright{
+  position: absolute;
+  right:10px;
+}
+
+.posleft{
+  position: absolute;
+  left:10px;
+}
+
+
+.poscenter{
+  position: absolute;
+  left:50%;
+  top:15px;
+  transform: translate(-50%, -50%);
+  
+}
+    .otherstate {
+      display: flex;
+      justify-content: center;
+      padding: 0px 2%;
+      margin-top:15px;
+      width:100%;
+
+    }
+
+    .otherstate button {
+      background-color: #FDCD55;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      border: none;
+      text-align: center;
+      letter-spacing: -0.24px;
+      text-transform: uppercase;
+      border-radius: 25px;
+      padding: 5px 20px;
+      color: #000000;
+    }
+
+
+ .tick{
+      position: relative;
+    }
+
+.tick::before{
+  content:url('../../../assets/img/tick.svg');
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  opacity: 1;
+}
+
+#slider0 .slider-selection {
+  background: #9be91e;
+  background-image: linear-gradient(to bottom, #1c82bd 0, #e0c6c6 100%) !important;
+}
+
+
+
+.preview-pos u{
+  position: relative;
+  left:78%;
+  top:7px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  letter-spacing: -0.24px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #F28C2E!important;
+}
+
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+text-align: center;
+color: #FFFFFF;
+
+}
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: .5;
+    color:#dee2e6;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.back{
+  position: absolute;
+  left:12%;
+  top: -5px;
+}
+
+.next{
+  position: absolute;
+  right:12%;
+  top: -5px;
+}
+// Costume Pop Ups
+
+@media(max-width:540px){
+
+  .preview-pos u{
+    position: relative;
+    left:77%;
+    top:7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: -0.24px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #F28C2E!important;
+  }
+
+  .back{
+    position: absolute;
+    left:2%;
+  }
+  
+  .next{
+    position: absolute;
+    right:2%;
+  }
+
+  .blink-soft {
+    animation: blinker 1.5s linear infinite;
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  color: #FFFFFF;
+  
+  }
+
+
+
+}
+
+
+@media(max-width:393px){
+  .zone-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fdcd55;
+    padding: 0 10px;
+    border-radius: 20px 20px 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+}
+
+@media(max-width:360px){
+  .left{
+    font-size: 13px!important;
+    margin-top: 15px;
+}
+
+.preview{
+  padding: 5px 10px;
+}
+}
+
+
+
+
+// Costume Pop Ups

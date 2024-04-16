@@ -1,0 +1,97 @@
+.contentbox{
+    width:96%;
+    background-color:white;
+    margin: auto;
+    padding:30px 15px;
+    font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.7);
+   border-radius:25px;
+   box-shadow: 0px 1px 18px 9px rgba(0, 0, 0, 0.33);
+     
+   }
+   
+   
+   .contentbox div h6{
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+   
+   }
+   
+   ul li span{
+     color:#FF8F65;
+     font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   }
+   
+   .done{
+     font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   text-transform: uppercase;
+   color: #724FE4;
+   
+   }
+   
+   .note{
+     font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 150%;
+   color: rgba(0, 0, 0, 0.7);
+   
+   
+   }
+   
+   
+   .date{
+     font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 150%;
+   color: #FF8F65;
+   }
+   
+
+   .question{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin-top:50px;
+    width:100%;
+    display: flex;
+    
+   }
+
+   .w-80 {
+       width:90%;
+   }
+
+   .w-20 {
+    width:10%;
+}
+
+   p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000000;
+   }
+
+   .pl{
+
+
+ margin-left:10%;
+   }

@@ -1,0 +1,325 @@
+.zone {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.zone button {
+  border-radius: 100px;
+  color: #7040D8;
+  opacity: 0.8;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11.5px;
+  opacity: 0.8;
+  letter-spacing: 0.2px;
+}
+
+
+.zone .active {
+  opacity: 1;
+  box-shadow: 0px 6px 14px 6px rgba(0, 0, 0, 0.32) !important;
+}
+
+
+.uttarpradesh {
+
+  width: 100%;
+
+  margin: 20px auto;
+  text-align: center;
+
+
+}
+
+.uttarpradesh h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: .8;
+  letter-spacing: .2px;
+  margin: 30px 0px;
+  color: white;
+}
+
+.mp {
+
+  width: 90%;
+
+  margin: 20px auto;
+  text-align: center;
+
+
+}
+
+.mp h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: .8;
+  letter-spacing: .2px;
+  margin: 30px 0px;
+  color: white;
+}
+
+
+
+.punjab {
+
+  width: 90%;
+
+  margin: 20px auto;
+  text-align: center;
+
+
+}
+
+.punjab h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: .8;
+  letter-spacing: .2px;
+  margin: 30px 0px;
+  color: white;
+}
+
+
+
+.goa {
+
+  width: 100%;
+
+  margin: 20px auto;
+  text-align: center;
+
+
+}
+
+.goa h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  opacity: .8;
+  letter-spacing: .2px;
+  margin: 30px 0px;
+  color: white;
+}
+
+
+
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: Roboto;
+  padding: 0px 14px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+}
+
+
+.bcwhite {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  border-radius: 5px;
+  margin: 5px 0 3px 0;
+  padding: 11px 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #1A0628;
+
+}
+
+.red {
+  color: red !important;
+  ;
+}
+
+.bgyellow {
+
+  background-color: #ffff ;
+   display: flex;
+  justify-content: space-between;
+  color: black;
+  border-radius: 5px;
+  margin: 5px 0 3px 0;
+  padding: 11px 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #1A0628;
+
+}
+
+.fix {
+  width: 75px;
+}
+
+
+.ranktext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.savelink {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FFD263;
+}
+
+.first{
+    background-color: #FEC844;
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    border-radius: 5px;
+    margin: 5px 0 3px;
+    padding: 11px 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -.02em;
+    color: #1a0628;
+
+  /*background-color: #ffff ;
+   display: flex;
+   justify-content: space-between;
+   color: black;
+   border-radius: 5px;
+   margin: 5px 0 3px 0;
+   padding: 11px 14px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 16px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: -0.02em;
+ 
+    color: #1A0628;*/
+
+
+}
+
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+
+  color: #fff;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: .5;
+    color:#dee2e6;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.proceed{
+	
+  width: 86%;
+  height:44.81px;
+  background: #FDCD55;
+  box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+  border-radius: 30px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: auto;
+  box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+  border:none;
+  color:black;
+  margin-bottom:15px;
+  
+  }
+  
+  
+  
+  .proceed span{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  
+  
+  }

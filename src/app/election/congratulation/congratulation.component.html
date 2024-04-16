@@ -1,0 +1,88 @@
+<!--Congrats -->
+
+<div class="Congrats">
+ <img src="../../../assets/img/back_cong.svg" class="img-100 congrats-arrange"> 
+
+ <div class="yellowbox">
+	 <div class="m-auto d-block">
+		<img src="../../../assets/img/CongratsTick.svg" class="">
+		<span class="ml-3" i18n>Your Prediction Has Been Saved.</span></div>
+	 </div>
+	
+ <p class="bazigaar px-3" i18n>Hey Baazigar! Change your prediction anytime you want until <span class="orange">1st December, 2023</span></p>
+
+	
+
+</div>
+
+<!--Congrats  End-->
+
+
+<!-- State -->
+<!-- State Images -->
+<div class="container margin-top">
+	
+	<div class="row"> 
+		<div class="background">
+			<div class="gameimage">
+				<a href="https://bit.ly/3IkH6h5" target="_blank"><img src="../../../assets/game/knife.png" style="width:125px; " class="img-fluid"></a>
+				<a href="https://bit.ly/3Gutkb4" target="_blank"><img src="../../../assets/game/tm2.png" style="width:125px; border-radius:10px;" class="img-fluid"></a>
+				<a href="https://bit.ly/33dcuPE" target="_blank"><img src="../../../assets/game/ludolife.png" style="width:125px; border-radius:10px;" class="img-fluid"></a>
+			</div> 
+			<div class="morebutton">
+				<a href="https://www.gamesmasti.com/" target="_blank"><button i18n>PLAY MORE GAMES</button></a>
+			</div>
+			<p class="morelink"><a href="https://www.gamesmasti.com/" target="_blank"><u>More Games</u></a></p> 
+		</div> 
+</div>
+<!-- ADD GAME -->
+
+<div class="container margin-top">
+	<div class="row" style="padding: 0!important;
+    background: #fff;
+	font-weight: 500;
+    height: 28px;
+    border-radius: 5px 
+px
+;
+    width: 100%;
+">
+		<div class="col-3"></div>
+		<div class="col-6">Predict for other states</div>
+		<div class="col-3"></div>
+	</div>
+	<div class="row" style="margin-top:15px">
+		<div *ngFor="let s of listShow2; let i = index" class="col-4 p-0 m-0">
+			<div class="posre">
+				<img src="{{image}}img/{{s}}.svg" class="img-100" [routerLink]="['/s_state',{'state':s}]">
+				<!-- <div class="posab"><img src="{{image}}img/text{{s}}.svg"></div> -->
+				<div  *ngIf="listShow[i] === 'Checked-'+s" class="postick"><img src="{{image}}img/bigtick.svg"></div>
+			  </div>
+		</div>
+	</div>
+	<div  class="morebutton" style=" position:fixed;
+    top: 159;
+    left: 28%;
+    margin-top: -32px;">
+		<a href="https://www.gamesmasti.com/" target="_blank"><button i18n>PLAY MORE GAMES</button></a>
+	</div>
+</div>
+
+
+</div>
+
+<ng-template #internetNotWorking let-c="close" let-d="dismiss">
+	<div class="modal-header">
+	  <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+  
+	</div>
+	<div class="modal-body">
+	  <p i18n> Oops, no internet connection! Please check the connection and try again.</p>
+	</div>
+	<div class="modal-footer">
+	  <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+		<span class="nointernate" i18n="@@99906972521">Ok</span>
+	  </button>
+	</div>
+  </ng-template>
+

@@ -1,0 +1,19 @@
+<div>
+  <div class="box">
+
+    <h3>Prizes</h3>
+    <p>Please fill in the from below</p>
+    <form [formGroup]="form">
+      <label class="input_lable"><img src="../../../assets/formicon/name.svg"></label><input type="text" name=""
+        placeholder="Enter Your Name" maxlength="30" class="input" required formControlName="name">
+      <label class="input_lable mt-3"><img src="../../../assets/formicon/email.svg"></label><input type="email" name=""
+        placeholder="Enter Your Email" maxlength="30" class="input" required formControlName="email" >
+      <label class="input_lable mt-3"><img src="../../../assets/formicon/mobile.svg"></label><input type="tel" disabled=true name=""
+        placeholder="{{num}}" maxlength="10" class="input" required>
+      <button *ngIf="form.valid" class="verify btn mt-3" (click)="saveForm()" type="submit" i18n>SAVE</button>
+    </form>
+
+  </div>
+  <!--<input type="text" [(ngModel)]="number">
+    <button type="submit" (click)="sendNumber()">submit</button>-->
+</div>

@@ -1,0 +1,148 @@
+
+
+//Proceed
+.proceed{
+	
+width: 86%;
+height:44.81px;
+background: #FDCD55;
+box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+border-radius: 30px;
+text-align:center;
+display:flex;
+justify-content:center;
+align-items:center;
+margin: auto;
+box-shadow: 0px 13px 7px rgba(19, 19, 19, 0.24);
+border:none;
+color:black;
+margin-bottom:15px;
+
+}
+
+
+
+.proceed span{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+
+
+}
+
+
+.checkbox{
+  display: inline-flex;
+  align-items:center;
+  cursor: pointer;
+}
+
+
+.checkboxinput{
+  display:none;
+}
+
+.divcheckbox{
+  width:1.25em;
+  height:1.25em;
+  border:2px solid white;
+  border-radius:5px;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:10px;
+  flex-shrink: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+.checkboxinput:checked + .divcheckbox::after {
+  
+  height:100%;
+  width:100%;
+  content:'\2714';
+  color:white;
+ 
+}
+
+
+
+
+.term{font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+margin-top:10px;}
+
+
+
+
+.ptext{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.link{
+  color:#FF8F65;
+}
+
+
+.img-100{
+  width:100%;
+}
+
+.prize{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.clr{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  color: #F8CA06;
+
+}
+
+@media(max-width:540px){
+  .ptext{
+    font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  }
+
+  .prize{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

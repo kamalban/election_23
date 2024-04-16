@@ -1,0 +1,117 @@
+// Select State
+
+.heading {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.back-trans {
+  background: black;
+  display: inline-block;
+  padding: 0px 10px;
+  background: rgba(0, 0, 0, 0.29);
+  border-radius: 3px;
+  text-align: center;
+  width: 85%;
+
+
+}
+
+.back-trans span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*Heading End*/
+
+.navigation {
+  position: fixed;
+  bottom: 0px;
+
+  width: 100%;
+  padding: px;
+  background: white;
+  border-radius: 30px 30px 0px 0px;
+  margin: auto;
+}
+
+.navigation ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+}
+
+.navigation ul li {
+  display: inline-block;
+  margin: 10px 0px;
+}
+
+.hover {
+  position: relative;
+  top: -11px;
+  left: -8px;
+  display: block;
+  border: 2px solid #7445ec;
+  border-radius: 0px 0px 10px 10px;
+  width: 56px;
+}
+
+/*zone*/
+
+.zone {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.zone button {
+  border-radius: 100px;
+  color: #7040d8;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.box {
+  width: 341px;
+  height: 423px;
+  margin: auto;
+
+  /* Color-White */
+
+  background: #ffffff;
+  box-shadow: 0px -5px 18px rgba(0, 0, 0, 0.04);
+  border-radius: 16px;
+}
+
+
+.width {
+  width: 100% !important;
+}
+
+
+.posre{
+  position:relative;
+}
+
+.posab{
+  position: absolute;
+  bottom:8%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.postick{
+  position: absolute;
+  right: -4px;
+  top:-12px;
+}
+
+.minus-margin{
+	margin-top:-13px;
+}

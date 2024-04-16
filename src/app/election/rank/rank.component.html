@@ -1,0 +1,1108 @@
+<!-- <p class="px-3 blink-soft" i18n="@@1234567891">Congratulations to all the winners. If you have won a prize, you will receive a confirmation
+  SMS from us on or before 15th March, 2022. Instructions to claim the prize will be provided in the SMS</p>
+ -->
+
+
+<div class="zone">
+
+  <!-- With Tick Put This Color 00FFFF -->
+  <button [ngClass]="{'active': rajasthan }" class="active btn bg-white" (click)="click('rajasthan')">Rajasthan</button>
+  <button [ngClass]="{'active': chhattisgarh }" class="btn bg-white" (click)="click('chhattisgarh')">Chhattisgarh</button>
+  <button [ngClass]="{'active': mp}" class="btn bg-white " (click)="click('mp')">MP</button>
+  <button [ngClass]="{'active': telangana}" class="btn bg-white" (click)="click('telangana')">Telangana</button>
+  <button [ngClass]="{'active': mizoram}" class="btn bg-white" (click)="click('mizoram')">Mizoram</button>
+
+</div>
+
+<div class="uttarpradesh" *ngIf="rajasthan === true">
+  <div class="p-3">
+    <div class="main" style="color: #9e9be;background: #9e9be6; height: 24px; border-radius: 5px;">
+      <span class="fix" i18n>S.No</span>
+      <span class="fix" i18n>Mobile No</span>
+      <span class="fix" i18n>D. Score</span>
+      <span class="fix" i18n>Rank</span>
+
+    </div>
+
+    <div *ngIf="user">
+      <div class="bgyellow">
+        <span class="fix">You</span>
+        <span class="fix">{{user[0].mobileNumber}}</span>
+        <span class="fix">
+          <div *ngIf="!user[0].score_Rajasthan || user[0].score_Rajasthan >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].score_Rajasthan < 9999">
+            {{user[0].score_Rajasthan}}<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+        <div *ngIf="!user[0].rank_Rajasthan || user[0].rank_Rajasthan >= 9999 || user[0].score_Rajasthan >= 9999">
+          <span class="fix">NA</span>
+        </div>
+        <div *ngIf="user[0].rank_Rajasthan < 9999 && user[0].score_Rajasthan < 9999">
+          <span class="fix">{{user[0].rank_Rajasthan}}<span class="red">*</span></span>
+        </div>
+      </span>
+
+      </div>
+      
+      <!-------Other Rank User  ---- -->
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">8629928284</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">1</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">2</span>
+        <span class="fix">7393935544</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">2</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">3</span>
+        <span class="fix">6395505283</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">3</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">1</span>
+        <span class="fix">9911050994</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">4</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">9643423395</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">5</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">1</span>
+        <span class="fix">9352981178</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">6</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">9079932515</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">7</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">1</span>
+        <span class="fix">8000009054</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">8</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">7018802144</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">9</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">1</span>
+        <span class="fix">7611880700</span>
+        <span class="fix"> 
+          <div>
+            5<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">10</span>
+          </div> 
+        </span>
+      </div>
+      <!-------Other Rank User  ---- -->
+
+
+    </div>
+    <div *ngIf="Rajasthan">
+      <div *ngFor="let user of Rajasthan; let i = index">
+        <div [ngClass]="{ 'first' : i <= 30 ,'bgyellow' : i >= 31}">
+          <span class="fix">{{i+1}}</span>
+          <span class="fix">{{user.mobileNumber}}</span>
+          <span class="fix">{{user.score_Rajasthan}}<span class="red">*</span></span>
+          <span class="fix">{{user.rank_Rajasthan}}<span class="red">*</span></span>
+
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="ranktext" i18n>Can’t wait to check your Rank? Just wait for Election Results to be announced and then come back to check your Rank and D.Score on December 6th, 2023 9 pm. See you soon!</p>
+      <!-- <h4 class="savelink"> Save Game</h4> -->
+
+    </div>
+    <div *ngIf="user && user[0].rank_Rajasthan <= 30 && user[0].score_Rajasthan < 9999">
+      <div>
+        <button class="proceed" (click)="claim()">Claim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Uttarakhand" style="margin: 20px auto;" *ngIf="chhattisgarh === true">
+  <div class="p-3">
+    <div class="main" style="color: #9e9be;background: #9e9be6; height: 24px; border-radius: 5px;">
+      <span class="fix" i18n>S.No</span>
+      <span class="fix" i18n>Mobile No</span>
+      <span class="fix" i18n>D. Score</span>
+      <span class="fix" i18n>Rank</span>
+
+    </div>
+
+
+    <div *ngIf="user">
+      <div class="bgyellow">
+        <span class="fix">You</span>
+        <span class="fix">{{user[0].mobileNumber}}</span>
+        <span class="fix">
+          <div *ngIf="!user[0].score_Chhattisgarh || user[0].score_Chhattisgarh>= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].score_Chhattisgarh < 9999">
+            {{user[0].score_Chhattisgarh}}<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div *ngIf="!user[0].rank_Chhattisgarh || user[0].rank_Chhattisgarh >= 9999 || user[0].score_Chhattisgarh >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].rank_Chhattisgarh< 9999 && user[0].score_Chhattisgarh < 9999">
+            {{user[0].rank_Chhattisgarh}}<span class="red">*</span>
+          </div>
+        </span>
+      </div>
+
+      <!-------Other Rank User  ---- -->
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">9999980413</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">1</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">2</span>
+        <span class="fix">7771832836</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">2</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">3</span>
+        <span class="fix">9617610386 </span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">3</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">4</span>
+        <span class="fix">9662841051</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">4</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">5</span>
+        <span class="fix">7874078196</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">5</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">6</span>
+        <span class="fix">7052421492</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">6</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">7</span>
+        <span class="fix">7976958636</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">7</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">8</span>
+        <span class="fix">8107499764</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">8</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">9</span>
+        <span class="fix">6268167469</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">9</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">10</span>
+        <span class="fix">6263901185</span>
+        <span class="fix"> 
+          <div>
+            2<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">10</span>
+          </div> 
+        </span>
+      </div>
+      <!-------Other Rank User  ---- -->
+
+
+
+    </div>
+
+    <div *ngIf="Chhattisgarh">
+      <div *ngFor="let user of Chhattisgarh; let i = index">
+        <div [ngClass]="{ 'first' : i <= 30 ,'bgyellow' : i >= 31}">
+          <span class="fix">{{i+1}}</span>
+          <span class="fix">{{user.mobileNumber}}</span>
+          <span class="fix">{{user.score_Chhattisgarh}}<span class="red">*</span></span>
+          <span class="fix">{{user.rank_Chhattisgarh}}<span class="red">*</span></span>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="ranktext" i18n>Can’t wait to check your Rank? Just wait for Election Results to be announced and then come back to check your Rank and D.Score on December 6th, 2023 9 pm. See you soon!</p>
+      <!-- <h4 class="savelink"> Save Game</h4> -->
+
+    </div>
+    <div *ngIf="user && user[0].rank_Chhattisgarh <= 30 && user[0].score_Chhattisgarh < 9999">
+      <div>
+        <button class="proceed" (click)="claim()">Claim</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="punjab" style="width:100%;margin: 20px auto;" *ngIf="mp === true">
+  <div class="p-3">
+    <div class="main" style="color: #9e9be;background: #9e9be6; height: 24px; border-radius: 5px;">
+      <span class="fix" i18n>S.No</span>
+      <span class="fix" i18n>Mobile No</span>
+      <span class="fix" i18n>D. Score</span>
+      <span class="fix" i18n>Rank</span>
+
+    </div>
+
+
+    <div *ngIf="user">
+      <div class="bgyellow">
+        <span class="fix">You</span>
+        <span class="fix">{{user[0].mobileNumber}}</span>
+        <span class="fix">
+          <div *ngIf="!user[0].score_mp || user[0].score_mp >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].score_mp < 9999">
+            {{user[0].score_mp}}<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div *ngIf="!user[0].rank_mp || user[0].rank_mp >= 9999 || user[0].score_mp >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].rank_mp < 9999 && user[0].score_mp < 9999">
+            {{user[0].rank_mp}}<span class="red">*</span>
+          </div>
+        </span>
+
+      </div>
+
+       <!-------Other Rank User  ---- -->
+       <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">9155188216</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">1</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">2</span>
+        <span class="fix">8434844568</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">2</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">3</span>
+        <span class="fix">7051212021 </span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">3</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">4</span>
+        <span class="fix">9759554046</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">4</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">5</span>
+        <span class="fix">7489126388</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">5</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">6</span>
+        <span class="fix">9983414230</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">6</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">7</span>
+        <span class="fix">9404462653</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">7</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">8</span>
+        <span class="fix">7976958636</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">8</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">9</span>
+        <span class="fix">9265728875</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">9</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">10</span>
+        <span class="fix">7283939325</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">10</span>
+          </div> 
+        </span>
+      </div>
+      <!-------Other Rank User  ---- -->
+
+
+
+    </div>
+
+    <div *ngIf="mp">
+      <div *ngFor="let user of MP; let i = index">
+        <div [ngClass]="{ 'first' : i <=30 ,'bgyellow' : i >=31}">
+          <span class="fix">{{i+1}}</span>
+          <span class="fix">{{user.mobileNumber}}</span>
+          <span class="fix">{{user.score_mp}}<span class="red">*</span></span>
+          <span class="fix">{{user.rank_mp}}<span class="red">*</span></span>
+
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="ranktext" i18n>Can’t wait to check your Rank? Just wait for Election Results to be announced and then come back to check your Rank and D.Score on December 6th, 2023 9 pm. See you soon!</p>
+      <!-- <h4 class="savelink"> Save Game</h4> -->
+
+    </div>
+    <div *ngIf="user && user[0].rank_mp <= 30 && user[0].score_mp < 9999">
+      <div>
+        <button class="proceed" (click)="claim()">Claim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="goa" *ngIf="telangana === true">
+  <div class="p-3">
+    <div class="main" style="color: #9e9be;background: #9e9be6; height: 24px; border-radius: 5px;">
+      <span class="fix" i18n>S.No</span>
+      <span class="fix" i18n>Mobile No</span>
+      <span class="fix" i18n>D. Score</span>
+      <span class="fix" i18n>Rank</span>
+
+    </div>
+
+    <div *ngIf="user">
+      <div class="bgyellow">
+        <span class="fix">You</span>
+        <span class="fix">{{user[0].mobileNumber}}</span>
+        <span class="fix">
+          <div *ngIf="!user[0].score_Telangana ||user[0].score_Telangana >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].score_Telangana < 9999">
+            {{user[0].score_Telangana}}<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div *ngIf="!user[0].rank_Telangana ||user[0].rank_Telangana >= 9999 || user[0].score_Telangana >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].rank_Telangana < 9999 && user[0].score_Telangana < 9999">
+            {{user[0].rank_Telangana}}<span class="red">*</span>
+          </div>
+        </span>
+
+      </div>
+
+       <!-------Other Rank User  ---- -->
+       <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">7600600609</span>
+        <span class="fix"> 
+          <div>
+            4<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">1</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">2</span>
+        <span class="fix">8010592494</span>
+        <span class="fix"> 
+          <div>
+            4<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">2</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">3</span>
+        <span class="fix">8156068726 </span>
+        <span class="fix"> 
+          <div>
+            4<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">3</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">4</span>
+        <span class="fix">8849047374</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">4</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">5</span>
+        <span class="fix">9680945455</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">5</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">6</span>
+        <span class="fix">7851037826</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">6</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">7</span>
+        <span class="fix">7697323658</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">7</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">8</span>
+        <span class="fix">9676674959</span>
+        <span class="fix"> 
+          <div>
+            6<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">8</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">9</span>
+        <span class="fix">7906926595</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">9</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">10</span>
+        <span class="fix">8879005685</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">10</span>
+          </div> 
+        </span>
+      </div>
+      <!-------Other Rank User  ---- -->
+    </div>
+
+    <div *ngIf="Telangana">
+      <div *ngFor="let user of Telangana; let i = index">
+        <div [ngClass]="{ 'first' : i <=30 ,'bgyellow' : i >=31}">
+          <span class="fix">{{i+1}}</span>
+          <span class="fix">{{user.mobileNumber}}</span>
+          <span class="fix">{{user.score_Telangana}}<span class="red">*</span></span>
+          <span class="fix">{{user.rank_Telangana}}<span class="red">*</span></span>
+
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="ranktext" i18n>Can’t wait to check your Rank? Just wait for Election Results to be announced and then come back to check your Rank and D.Score on December 6th, 2023 9 pm. See you soon!</p>
+      <!-- <h4 class="savelink"> Save Game</h4> -->
+
+    </div>
+    <div *ngIf="user && user[0].rank_Telangana <= 30 && user[0].score_Telangana < 9999">
+      <div>
+        <button class="proceed" (click)="claim()">Claim</button>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<div class="goa" *ngIf="mizoram === true">
+  <div class="p-3">
+    <div class="main" style="color: #9e9be;background: #9e9be6; height: 24px; border-radius: 5px;">
+      <span class="fix" i18n>S.No</span>
+      <span class="fix" i18n>Mobile No</span>
+      <span class="fix" i18n>D. Score</span>
+      <span class="fix" i18n>Rank</span>
+
+    </div>
+
+    <div *ngIf="user">
+      <div class="bgyellow">
+        <span class="fix">You</span>
+        <span class="fix">{{user[0].mobileNumber}}</span>
+        <span class="fix">
+          <div *ngIf="!user[0].score_Mizoram ||user[0].score_Mizoram >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].score_Mizoram < 9999">
+            {{user[0].score_Mizoram}}<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div *ngIf="!user[0].rank_Mizoram ||user[0].rank_Mizoram >= 9999 || user[0].score_Mizoram >= 9999">
+            NA
+          </div>
+          <div *ngIf="user[0].rank_Mizoram < 9999 && user[0].score_Mizoram < 9999">
+            {{user[0].rank_Mizoram}}<span class="red">*</span>
+          </div>
+        </span>
+
+      </div>
+
+       <!-------Other Rank User  ---- -->
+       <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">1</span>
+        <span class="fix">7869682896</span>
+        <span class="fix"> 
+          <div>
+            8<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">1</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">2</span>
+        <span class="fix">7905328758</span>
+        <span class="fix"> 
+          <div>
+            10<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">2</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">3</span>
+        <span class="fix">7291850082 </span>
+        <span class="fix"> 
+          <div>
+            10<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">3</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">4</span>
+        <span class="fix">8560871496</span>
+        <span class="fix"> 
+          <div>
+            12<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">4</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">5</span>
+        <span class="fix">9817353993</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">5</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">6</span>
+        <span class="fix">9727260792</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">6</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">7</span>
+        <span class="fix">9054455397</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">7</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">8</span>
+        <span class="fix">6375642170</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">8</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow" style="background-color: #e5dada">
+        <span class="fix">9</span>
+        <span class="fix">9956618470</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">9</span>
+          </div> 
+        </span>
+      </div>
+
+      <div class="bgyellow">
+        <span class="fix">10</span>
+        <span class="fix">6388404817</span>
+        <span class="fix"> 
+          <div>
+            14<span class="red">*</span>
+          </div>
+        </span>
+        <span class="fix">
+          <div>
+            <span class="fix">10</span>
+          </div> 
+        </span>
+      </div>
+      <!-------Other Rank User  ---- -->
+    </div>
+    <div class="bgyellow" style="background-color: #e06e6e; color: #201414;
+    font-size: 16px;font-family: 'math';text-align: ;">
+    Congratulations to all the winners. If you have won a prize, you will receive a call from us on or before 15th December, 2023. Instructions to claim the prize will be provided in the call. 
+    <br /><br />
+
+*If two or more users have the same score for a State, the Rank is calculated depending on how close their prediction is for other states. For more information, check T&C</div>
+
+    <div *ngIf="Mizoram">
+      <div *ngFor="let user of Mizoram; let i = index">
+        <div [ngClass]="{ 'first' : i <=30 ,'bgyellow' : i >=31}">
+          <span class="fix">{{i+1}}</span>
+          <span class="fix">{{user.mobileNumber}}</span>
+          <span class="fix">{{user.score_Mizoram}}<span class="red">*</span></span>
+          <span class="fix">{{user.rank_Mizoram}}<span class="red">*</span></span>
+
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <p class="ranktext" i18n>Can’t wait to check your Rank? Just wait for Election Results to be announced and then come back to check your Rank and D.Score on December 5th, 2023 9 pm. See you soon!</p>
+      <!-- <h4 class="savelink"> Save Game</h4> -->
+
+    </div>
+    <div *ngIf="user && user[0].rank_Mizoram <= 30 && user[0].score_Mizoram < 9999">
+      <div>
+        <button class="proceed" (click)="claim()">Claim</button>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+
+<ng-template #internetNotWorking let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Oops, no internet connection! Please check the connection and try again.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>

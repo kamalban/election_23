@@ -1,0 +1,171 @@
+<div *ngIf="state === 'UP'">
+  <h1 class="text-red blink-soft mt-2">Please save your prediction now</h1> 
+  <button type="submit" class="verify btn mb-4" (click)="nextState(forceUpdate)" i18n>SAVE MY PREDICTION
+    <img src="../../../assets/img/hand.svg" class="hand blink-soft">
+  </button>
+
+  <div class="box">
+
+
+
+    <span class="predicted" i18n>You have predicted:</span>
+    <img src="{{image}}img/Bigedit.svg" class="bigedit" [routerLink]="['/s_state',{'state':state}]">
+    <div id="chart">
+      <apx-chart [series]="barDiagram.series" [chart]="barDiagram.chart" [dataLabels]="barDiagram.dataLabels"
+        [plotOptions]="barDiagram.plotOptions" [yaxis]="barDiagram.yaxis" [xaxis]="barDiagram.xaxis"
+        [legend]="barDiagram.legend" [colors]="barDiagram.colors" [title]="barDiagram.title"></apx-chart>
+    </div>
+    <!-- Party Name -->
+    <div class="Partname">
+      <div class="mb-3" *ngFor="let party of partyCSS">
+        <div  [ngStyle]="{'background-color': true ? party.color : 'white'}"  class="circle bjp mt-1"></div><span>{{party.name}}</span>
+      </div>
+    </div>
+    <!-- Party End -->
+    <!-- [title]="barDiagram.title" -->
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{p.name}}</th>
+          <th scope="col" i18n>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="radius">
+          <th i18n>Awadh</th>
+          <td class="text-right" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{data["data"]["Awadh"][p.name]}}</td>
+          <td class="text-right">{{totalZoneWise["Awadh"]}}</td>
+        </tr>
+        <tr class="radius">
+          <th i18n>Purwanchal</th>
+          <td  class="text-right" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{data["data"]["Purwanchal"][p.name]}}</td>
+          <td class="text-right">{{totalZoneWise["Purwanchal"]}}</td>
+        </tr>
+        <tr class="radius">
+          <th i18n>West U.P.</th>
+          <td class="text-right" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{data["data"]["West UP"][p.name]}}</td>
+          <td class="text-right">{{totalZoneWise["West UP"]}}</td>
+        </tr>
+        <tr class="radius">
+          <th i18n>Bundelkhand</th>
+          <td class="text-right"  *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{data["data"]["Bundelkhand"][p.name]}}</td>
+          <td class="text-right">{{totalZoneWise["Bundelkhand"]}}</td>
+        </tr>
+        <tr class="radius">
+          <th i18n class="mostbolder">Total</th>
+          <td *ngFor="let s of totalpartyWise; let i = index" [ngStyle]="{'color': true ? partyCSS[i].color : 'black'}" class="lightbolder text-right">{{s}}</td>
+          <td class="mostbolder text-right">{{total}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <!-- Box Div End -->
+  </div>
+
+  
+
+</div>
+
+
+<div *ngIf="state !== 'UP'">
+  <h1 class="text-red blink-soft mt-2" i18n>Please save your prediction now</h1> 
+  <button type="submit" class="verify btn mb-4" (click)="nextState(forceUpdate)" i18n>SAVE MY PREDICTION
+    <img src="../../../assets/img/hand.svg" class="hand blink-soft">
+  </button>
+  <div class="box">
+    <span class="predicted" i18n>You have predicted</span>
+    <img src="{{image}}img/Bigedit.svg" class="bigedit" [routerLink]="['/s_state',{'state':state}]">
+
+    <div id="chart">
+      <apx-chart [series]="barDiagram.series" [chart]="barDiagram.chart" [dataLabels]="barDiagram.dataLabels"
+        [plotOptions]="barDiagram.plotOptions" [yaxis]="barDiagram.yaxis" [xaxis]="barDiagram.xaxis"
+        [legend]="barDiagram.legend" [colors]="barDiagram.colors" [grid]="barDiagram.grid" [title]="barDiagram.title">
+      </apx-chart>
+    </div>
+    <!-- Party Name -->
+    <div class="Partname">
+      <div class="mb-3" *ngFor="let party of partyCSS; let i = index">
+        <div  [ngStyle]="{'background-color': true ? party.color : 'white'}" class="circle bjp mt-1"></div><span>{{party.name}}</span>
+      </div>
+    </div>
+    <!-- Party End -->
+
+
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{p.name}}</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>{{state}}</th>
+          <td class="text-right" *ngFor="let p of partyCSS" [ngStyle]="{'color': true ? p.color : 'black'}">{{data["data"][p.name]}}</td>
+          <td class="text-right">{{otherTotal}}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Box Div End -->
+  </div>
+  <!-- <button type="submit" class="verify btn mb-4" (click)="nextState(forceUpdate)" i18n>SAVE MY PREDICTION</button> -->
+</div>
+
+
+
+
+<ng-template #forceUpdate let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title text-center" id="modal-basic-title">Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n="@@6249439377700256442">You have already predicted for {{state}} before. Do you want to replace it with what you have predicted
+      now?</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="overrideTeamdata();d('Cross click')" i18n>
+      Yes
+    </button>
+    <button type="button" class="btn clrred" (click)="d('Cross click')" [routerLink]="['/state',{}]" i18n >
+      No
+    </button>
+  </div>
+
+</ng-template>
+
+<ng-template #internetNotWorking let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Oops, no internet connection! Please check the connection and try again.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@99906972521">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
+<ng-template #failedUpdate let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title" i18n>Whoops</h4>
+
+  </div>
+  <div class="modal-body">
+    <p i18n> Sorry, Election Ke Baazigar game is CLOSED now. If you have predicted already, come back on DEC 6th @ 9:00 PM to check if you have won a prize.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn clrgreen" (click)="d('Cross click')">
+      <span class="nointernate" i18n="@99906972521" [routerLink]="['/home']">Ok</span>
+    </button>
+  </div>
+</ng-template>
+
